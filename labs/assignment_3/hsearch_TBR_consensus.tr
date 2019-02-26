@@ -1,0 +1,60 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Thu Feb 21 15:15:40 2019]
+[!
+>Data file = cob_nt_nexus.nxs
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 1149 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        478 characters are constant (proportion = 0.416014)
+>        121 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 550
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 100
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 846734
+>  Score of best tree(s) found = 3279
+>  Number of trees retained = 3
+>  Time used = 0.60 sec (CPU time = 0.60 sec)
+]
+	Translate
+		1 Platypus,
+		2 Echidna,
+		3 Opossum,
+		4 Wallaby,
+		5 Bandicoot,
+		6 Elephant,
+		7 Aardvark,
+		8 Tenrec,
+		9 Sloth,
+		10 Armadillo,
+		11 Human,
+		12 Tree_shrew,
+		13 Rabbit,
+		14 Mouse,
+		15 Hedgehog,
+		16 Flying_fox,
+		17 Cat,
+		18 Dog,
+		19 Pig,
+		20 Whale
+		;
+tree 'PAUP_1' = [&U] (1:122,2:115,(((3:127,5:111):45,4:97):69,(((((((6:123,(8:147,15:162):80):57,(7:111,13:133):35):52,((11:155,17:108):50,18:104):38):32,(16:103,(19:89,20:122):44):44):37,(9:141,10:112):47):43,12:128):54,14:102):43):97);
+tree 'PAUP_2' = [&U] (1:124,2:113,(((3:128,5:110):45,4:97):69,((((((6:123,(8:147,15:162):80):57,(7:110,13:134):35):46,(9:141,10:112):43):39,(((11:155,17:108):43,18:111):39,(16:105,(19:88,20:123):42):44):35):45,12:128):56,14:102):42):98);
+tree 'PAUP_3' = [&U] (1:124,2:113,(((3:129,5:109):45,4:97):69,((((((6:123,(8:146,15:163):80):56,(7:111,13:133):36):44,(9:139,10:114):45):37,((((11:156,17:107):50,18:104):48,(19:87,20:124):38):34,16:110):34):48,12:132):54,14:102):43):95);
+End;

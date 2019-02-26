@@ -1,0 +1,17 @@
+#NEXUS
+
+Begin trees; [Treefile created Mon Feb 18 23:18:45 2019]
+	Translate
+		1 Dolphin,
+		2 Sperm whale,
+		3 Blue whale,
+		4 Hippo,
+		5 Pig,
+		6 Cow,
+		7 Sheep,
+		8 Goat,
+		9 Giraffe,
+		10 Camel
+;
+	 tree iTOL_exported_tree = [&R] ((((1,2)[],3)[],((4,5)[],(((6,(7,8)[])[],9)[],10)[])[])[OROOT]);
+End;
