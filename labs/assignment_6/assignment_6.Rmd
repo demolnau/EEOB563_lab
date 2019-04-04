@@ -1,0 +1,87 @@
+---
+title: "assignment6_EEOB563"
+author: "Devin Molnau"
+date: "April 2, 2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd("D:/Documents/BoxSync/Classes/EEOB563_lab/labs/assignment_6/")
+library(Biostrings)
+library(ape)
+library(phangorn)
+library(rlang)
+library(phytools)
+library(ggtree)
+library(ggplot2)
+library(gridExtra)
+
+```
+
+# Assignment 6 - EEOB 563 - Spring 2019
+
+## PART 1:
+### Question 1: 
+Since the original situation has three doors that are equally likely, the prior probability can be set to $1/3$ for Door 1, Door2, and Door 3. When the third door is open, we now know that the likelihood that that has the car behind it is 0. Now one of the doors DOES have the car behind it which makes its likelihood 1 while the other door have a likelihood of 1/2. Now, if we selected Door 1 originally, and Door 3 was opened, then there is 1/2 likelihood that the car is behind door number 1. To calculate the posterior probability it would be the prior * likelihood/ the sum of the prior and likelihoods. The sum of the likelihood would be $(1/3 \times 1/2)+(1/3 \times 1)$ which will be the denominator. So the posterior probability of Door1 is $(1/2 \times 1/3)\ (1/2) = 1/3$ and the posterior probability that the car is behind Door 2 is $(1 \times 1/3)/(1/2) =2/3$ and of course the posterior probability of Door number 3 is 0. So, it would be adventageous to switch doors and go with Door 2. 
+
+
+## PART 2:
+
+### Question 2:
+To determine the probability of defendent A and complainant B's HIV sequence forming a clade, I ran a MCMC with a mixed gamma model for 2,000,000 generations, with 4 chains and sampled every 100 generations. 
+```{}
+module unuse /opt/rit/spack-modules/lmod/linux-rhel7-x86_64/Core
+module use /opt/rit/modules
+
+screen -S mrbayes
+module load mrbayes
+mb 
+log start filename=hiv-rjmcmc-log.txt
+execute hiv.nxs
+outgroup HIVRF
+lset nst=mixed rates=gamma
+showmodel
+mcmcp data=no nruns=1 nchains=1
+mcmcp ngen=2000000 printfreq=100 samplefreq=100
+mcmc filename=hiv-rjmcmc-prior
+mcmcp data=yes nruns=2 nchains=4 savebrlens=yes
+mcmcp ngen=2000000 printfreq=100 samplefreq=100
+mcmcp diagnfreq=1000 diagnstat=maxstddev
+mcmc filename=hiv-rjmcmc
+sump filename=hiv-rjmcmc
+sumt filename=hiv-rjmcmc
+quit
+```
+Based on the confidence tree generated after 2,000,000 iterations of MCMC, there is a 100% chance that the A and B form a clade. 
+
+<center>
+![Confidence Tree of MCMC generated tree](confidence_tree.jpg){ width=75% }
+</center>
+
+<center>
+![Credible sets of Trees](credible_sets_of_trees.jpg){ width=50% }
+</center>
+
+### Question 3:
+
+<center>
+![Model Posterior probability](model_posterior_probability.jpg){ width=75% }
+</center>
+The most likely model is gtrsubmodel[112212] with a probability of 0.138 with a standard deviation of 0.003.
+
+
+### Question 4:
+ To make sure that the MCMC simulations convergence to equilibrium, I look at the standard deviation of the mcmc after 2,000,000 iterations. The MaxStdDev after 2,000,000 iterations is 8.097e-3 which I would accept as reasonable.
+ 
+ Below are the Arithmetic and harmonic means of the 2 runs. 
+ <center>
+ ![Arithmetic and harmonic means](arithmetic_harmonic_means.jpg){ width=40% }
+ </center>
+ 
+ 
+ The length of the MCMC similation that I ran was 2,000,000 generations, with a print and sampling frequency of 100 generations and 4 chains.  Below are the paramters after the runs. 
+<center>
+![Posterior parameters](posterior_parameters.jpg){ width=100% }
+</center>
+
