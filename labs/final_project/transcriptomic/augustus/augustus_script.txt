@@ -1,0 +1,45 @@
+#load in augusuts
+module load augustus
+
+#get the predicited proteins using Nasonia vitripennis as the model organism
+augustus --species=nasonia pego_transcript_hits.fa --outfile=pego_transcript_augustus.txt
+#extract only the predicted proteins soo this output is a bit more readable
+sed -n -e '/start/,/end/ p' pego_transcript_augustus.txt > pego_transcript_augustus_edited.txt
+#create a fasta file of these predicted proteins
+
+augustus --species=nasonia phy_transcript_hits.fa --outfile=phy_transcript_augustus.txt
+#extract only the predicted proteins so this output is a bit more readable
+sed -n -e '/start/,/end/ p' phy_transcript_augustus.txt > phy_transcript_augustus_edited.txt
+#create a fasta file of these predicted proteins
+
+augustus --species=nasonia het1_transcript_hits.fa --outfile=het1_transcript_augustus.txt
+#extract only the predicted proteins so this output is a bit more readable
+sed -n -e '/start/,/end/ p' het1_transcript_augustus.txt > het1_transcript_augustus_edited.txt
+#create a fasta file of these predicted proteins
+
+augustus --species=nasonia het2_transcript_hits.fa --outfile=het2_transcript_augustus.txt
+#extract only the predicted proteins so this output is a bit more readable
+sed -n -e '/start/,/end/ p' het2_transcript_augustus.txt > het2_transcript_augustus_edited.txt
+#create a fasta file of these predicted proteins
+
+augustus --species=nasonia aepo_transcript_hits.fa --outfile=aepo_transcript_augustus.txt
+#extract only the predicted proteins so this output is a bit more readable
+sed -n -e '/start/,/end/ p' aepo_transcript_augustus.txt > aepo_transcript_augustus_edited.txt
+#create a fasta file of these predicted proteins
+
+augustus --species=nasonia idarnes_so1_transcript_hits.fa --outfile=idarnes_so1_transcript_augustus.txt
+#extract only the predicted proteins so this output is a bit more readable
+sed -n -e '/start/,/end/ p' idarnes_so1_transcript_augustus.txt > idarnes_so1_transcript_augustus_edited.txt
+#create a fasta file of these predicted proteins
+
+
+augustus --species=nasonia idarnes_so2_transcript_hits.fa --outfile=idarnes_so2_transcript_augustus.txt
+#extract only the predicted proteins so this output is a bit more readable
+sed -n -e '/start/,/end/ p' idarnes_so2_transcript_augustus.txt > idarnes_so2_transcript_augustus_edited.txt
+#create a fasta file of these predicted proteins
+
+augustus --species=nasonia idarnes_lo1_transcript_hits.fa --outfile=idarnes_lo1_transcript_augustus.txt
+#extract only the predicted proteins so this output is a bit more readable
+sed -n -e '/start/,/end/ p' idarnes_lo1_transcript_augustus.txt > idarnes_lo1_transcript_augustus_edited.txt
+#create a fasta file of these predicted proteins
+

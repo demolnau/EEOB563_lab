@@ -1,0 +1,1687 @@
+# This output was generated with AUGUSTUS (version 3.3.2).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /opt/rit/spack-app/linux-rhel7-x86_64/gcc-4.8.5/augustus-3.3.2-gee2bjtloujr3p46ywrvxlxip2mnjeye/config/ ...
+# nasonia version. Using default transition matrix.
+# Looks like idarnes_lo1_transcript_hits.fa is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 273, name = c98_g1_i1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# (none)
+#
+# ----- prediction on sequence number 2 (length = 198, name = c227_g1_i1) -----
+#
+# Predicted genes for sequence number 2 on both strands
+# (none)
+#
+# ----- prediction on sequence number 3 (length = 831, name = c227_g1_i2) -----
+#
+# Predicted genes for sequence number 3 on both strands
+# (none)
+#
+# ----- prediction on sequence number 4 (length = 1161, name = c575_g1_i1) -----
+#
+# Predicted genes for sequence number 4 on both strands
+# start gene g1
+c575_g1_i1	AUGUSTUS	gene	2	1161	0.23	+	.	g1
+c575_g1_i1	AUGUSTUS	transcript	2	1161	0.23	+	.	g1.t1
+c575_g1_i1	AUGUSTUS	CDS	2	1161	0.23	+	2	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGNMVARYGRYRRYLKFMLLCSGLWPSETQPCFFKAFLSFTSAFANGAVSFGILSFCIANATNINLLTRGLGLFVSFS
+# SAFMKMGLLTLHRKDIKRLKEGVSRRFESDLEVPEYQEHLLVHLPTFTKFFYTFDYSVAMNVILYALIPLSLIKHGKYVRMYPQVFPFSYEPGGTVHW
+# GIYAFEVVAGFYLWSVTCGVDSYFGFFTLHMVGELRLLNYRFRNLRSNSNYKKELKECVDRHSQLIQTQHLLEQVFGFLAIWLAVTCAIVLCALIFQV
+# FEMKHFTALKVCYLICYSFLKLVQAYSYAWFGNILAAESRLCLESMYVAQWPGSGDKQFMNDVLIIVSQKPFAFKAKSVMFLDMDMFTKIVNASVSYF
+# FLLKTLEETLDESK]
+# end gene g1
+###
+#
+# ----- prediction on sequence number 5 (length = 318, name = c862_g1_i1) -----
+#
+# Predicted genes for sequence number 5 on both strands
+# (none)
+#
+# ----- prediction on sequence number 6 (length = 1215, name = c1220_g1_i1) -----
+#
+# Predicted genes for sequence number 6 on both strands
+# (none)
+#
+# ----- prediction on sequence number 7 (length = 1134, name = c1220_g1_i2) -----
+#
+# Predicted genes for sequence number 7 on both strands
+# (none)
+#
+# ----- prediction on sequence number 8 (length = 1140, name = c2151_g1_i1) -----
+#
+# Predicted genes for sequence number 8 on both strands
+# (none)
+#
+# ----- prediction on sequence number 9 (length = 1140, name = c2151_g1_i2) -----
+#
+# Predicted genes for sequence number 9 on both strands
+# (none)
+#
+# ----- prediction on sequence number 10 (length = 627, name = c2227_g1_i1) -----
+#
+# Predicted genes for sequence number 10 on both strands
+# (none)
+#
+# ----- prediction on sequence number 11 (length = 1017, name = c3232_g1_i1) -----
+#
+# Predicted genes for sequence number 11 on both strands
+# start gene g2
+c3232_g1_i1	AUGUSTUS	gene	1	287	0.36	-	.	g2
+c3232_g1_i1	AUGUSTUS	transcript	1	287	0.36	-	.	g2.t1
+c3232_g1_i1	AUGUSTUS	intron	1	45	0.77	-	.	transcript_id "g2.t1"; gene_id "g2";
+c3232_g1_i1	AUGUSTUS	CDS	46	287	0.36	-	0	transcript_id "g2.t1"; gene_id "g2";
+c3232_g1_i1	AUGUSTUS	start_codon	285	287	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLTTLIIAIPVGMLQLVSSVITRFMSLHDKTIFTVCDTITVMNTNDVAITIRAFVHHELAGGYGSGQAPRKRKKTRLG
+# PI]
+# end gene g2
+###
+#
+# ----- prediction on sequence number 12 (length = 1126, name = c3232_g1_i2) -----
+#
+# Predicted genes for sequence number 12 on both strands
+# start gene g3
+c3232_g1_i2	AUGUSTUS	gene	1	287	0.27	-	.	g3
+c3232_g1_i2	AUGUSTUS	transcript	1	287	0.27	-	.	g3.t1
+c3232_g1_i2	AUGUSTUS	intron	1	45	0.68	-	.	transcript_id "g3.t1"; gene_id "g3";
+c3232_g1_i2	AUGUSTUS	CDS	46	287	0.27	-	0	transcript_id "g3.t1"; gene_id "g3";
+c3232_g1_i2	AUGUSTUS	start_codon	285	287	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MLTTLIIAIPVGMLQLVSSVITRFMSLHDKTIFTVCDTITVMNTNDVAITIRAFVHHELAGGYGSGQAPRKRKKTRLG
+# PI]
+# end gene g3
+###
+#
+# ----- prediction on sequence number 13 (length = 321, name = c3438_g1_i1) -----
+#
+# Predicted genes for sequence number 13 on both strands
+# (none)
+#
+# ----- prediction on sequence number 14 (length = 363, name = c3438_g2_i1) -----
+#
+# Predicted genes for sequence number 14 on both strands
+# (none)
+#
+# ----- prediction on sequence number 15 (length = 387, name = c3467_g1_i1) -----
+#
+# Predicted genes for sequence number 15 on both strands
+# (none)
+#
+# ----- prediction on sequence number 16 (length = 354, name = c3725_g1_i1) -----
+#
+# Predicted genes for sequence number 16 on both strands
+# (none)
+#
+# ----- prediction on sequence number 17 (length = 357, name = c3725_g2_i1) -----
+#
+# Predicted genes for sequence number 17 on both strands
+# (none)
+#
+# ----- prediction on sequence number 18 (length = 150, name = c3734_g1_i1) -----
+#
+# Predicted genes for sequence number 18 on both strands
+# (none)
+#
+# ----- prediction on sequence number 19 (length = 309, name = c4180_g1_i1) -----
+#
+# Predicted genes for sequence number 19 on both strands
+# (none)
+#
+# ----- prediction on sequence number 20 (length = 183, name = c4180_g1_i2) -----
+#
+# Predicted genes for sequence number 20 on both strands
+# (none)
+#
+# ----- prediction on sequence number 21 (length = 309, name = c4258_g1_i1) -----
+#
+# Predicted genes for sequence number 21 on both strands
+# (none)
+#
+# ----- prediction on sequence number 22 (length = 201, name = c4258_g2_i1) -----
+#
+# Predicted genes for sequence number 22 on both strands
+# (none)
+#
+# ----- prediction on sequence number 23 (length = 291, name = c4362_g1_i1) -----
+#
+# Predicted genes for sequence number 23 on both strands
+# (none)
+#
+# ----- prediction on sequence number 24 (length = 486, name = c5566_g1_i1) -----
+#
+# Predicted genes for sequence number 24 on both strands
+# (none)
+#
+# ----- prediction on sequence number 25 (length = 939, name = c5724_g1_i1) -----
+#
+# Predicted genes for sequence number 25 on both strands
+# start gene g4
+c5724_g1_i1	AUGUSTUS	gene	7	846	0.86	+	.	g4
+c5724_g1_i1	AUGUSTUS	transcript	7	846	0.86	+	.	g4.t1
+c5724_g1_i1	AUGUSTUS	start_codon	7	9	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+c5724_g1_i1	AUGUSTUS	CDS	7	846	0.86	+	0	transcript_id "g4.t1"; gene_id "g4";
+c5724_g1_i1	AUGUSTUS	stop_codon	844	846	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MPSKPNPNPGESDKPYMNKEYLADTEYAVRVAKTLLMPIGIWPRYGDNSRRNNLIIYARVCLIFCMMLFLLTPHFIWT
+# FFKAEDLRKLMKIIGAMVFSSLAVLKFWTLVFNKQQIRYCLEVMENDYKVAESEEDRQIMIKNARIGRFFTIAYLGLSYGGALPYHIIMPLLAERVLK
+# SDNTTIIPLPYPSEYVFFVVEDSPLYEIVFVTQILISALILSTNTGVYSLIACIVMHSCCLFEVTGHKIVWLLQSAQFNKRKVDAGLTKRLNQIVKFH
+# VQAIR]
+# end gene g4
+###
+#
+# ----- prediction on sequence number 26 (length = 1215, name = c5858_g1_i1) -----
+#
+# Predicted genes for sequence number 26 on both strands
+# (none)
+#
+# ----- prediction on sequence number 27 (length = 546, name = c6195_g1_i1) -----
+#
+# Predicted genes for sequence number 27 on both strands
+# (none)
+#
+# ----- prediction on sequence number 28 (length = 393, name = c6195_g1_i2) -----
+#
+# Predicted genes for sequence number 28 on both strands
+# (none)
+#
+# ----- prediction on sequence number 29 (length = 792, name = c6461_g1_i1) -----
+#
+# Predicted genes for sequence number 29 on both strands
+# (none)
+#
+# ----- prediction on sequence number 30 (length = 387, name = c6694_g1_i1) -----
+#
+# Predicted genes for sequence number 30 on both strands
+# start gene g5
+c6694_g1_i1	AUGUSTUS	gene	2	387	0.67	+	.	g5
+c6694_g1_i1	AUGUSTUS	transcript	2	387	0.67	+	.	g5.t1
+c6694_g1_i1	AUGUSTUS	CDS	2	387	0.67	+	2	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [FIKVGLVSLHRKNVESLKNGISRRFTSDLEVPDYQRHLLVHLRTFTRFFYAAGYSTAFNVILYALIPLSLIKHGKYVR
+# MYPQEFPFSYEPGGVVHWALYVFELAAGFYLWNATCGVDSYFGYFILHMI]
+# end gene g5
+###
+#
+# ----- prediction on sequence number 31 (length = 249, name = c6694_g2_i1) -----
+#
+# Predicted genes for sequence number 31 on both strands
+# (none)
+#
+# ----- prediction on sequence number 32 (length = 786, name = c6988_g1_i1) -----
+#
+# Predicted genes for sequence number 32 on both strands
+# (none)
+#
+# ----- prediction on sequence number 33 (length = 381, name = c7477_g1_i1) -----
+#
+# Predicted genes for sequence number 33 on both strands
+# (none)
+#
+# ----- prediction on sequence number 34 (length = 324, name = c7477_g1_i2) -----
+#
+# Predicted genes for sequence number 34 on both strands
+# (none)
+#
+# ----- prediction on sequence number 35 (length = 258, name = c9502_g1_i1) -----
+#
+# Predicted genes for sequence number 35 on both strands
+# (none)
+#
+# ----- prediction on sequence number 36 (length = 279, name = c9502_g2_i1) -----
+#
+# Predicted genes for sequence number 36 on both strands
+# (none)
+#
+# ----- prediction on sequence number 37 (length = 825, name = c9732_g1_i1) -----
+#
+# Predicted genes for sequence number 37 on both strands
+# (none)
+#
+# ----- prediction on sequence number 38 (length = 1119, name = c10412_g1_i1) -----
+#
+# Predicted genes for sequence number 38 on both strands
+# (none)
+#
+# ----- prediction on sequence number 39 (length = 1119, name = c10412_g1_i2) -----
+#
+# Predicted genes for sequence number 39 on both strands
+# (none)
+#
+# ----- prediction on sequence number 40 (length = 201, name = c10653_g1_i1) -----
+#
+# Predicted genes for sequence number 40 on both strands
+# (none)
+#
+# ----- prediction on sequence number 41 (length = 660, name = c10744_g1_i1) -----
+#
+# Predicted genes for sequence number 41 on both strands
+# start gene g6
+c10744_g1_i1	AUGUSTUS	gene	37	582	0.82	-	.	g6
+c10744_g1_i1	AUGUSTUS	transcript	37	582	0.82	-	.	g6.t1
+c10744_g1_i1	AUGUSTUS	stop_codon	37	39	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+c10744_g1_i1	AUGUSTUS	CDS	37	582	0.82	-	0	transcript_id "g6.t1"; gene_id "g6";
+c10744_g1_i1	AUGUSTUS	start_codon	580	582	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MAFDLSFGIVLAKLLGLSLNQSAIGQLIVWLFEDWKQKWNKKNLEVMWLYAYRSRCFATVNIVLEESAVLSYTIWALL
+# EALRGDGRQPYFNGYYPYDTHSTPNYQITWIMQMLVAFLAVGFFCSIDMLFLTLVFHLCGQLVNLQAAFKKLCSPITDTKFFSVKEFYTLLAELVERH
+# HRLIE]
+# end gene g6
+###
+#
+# ----- prediction on sequence number 42 (length = 318, name = c11259_g1_i1) -----
+#
+# Predicted genes for sequence number 42 on both strands
+# (none)
+#
+# ----- prediction on sequence number 43 (length = 201, name = c11259_g2_i1) -----
+#
+# Predicted genes for sequence number 43 on both strands
+# (none)
+#
+# ----- prediction on sequence number 44 (length = 338, name = c11259_g3_i1) -----
+#
+# Predicted genes for sequence number 44 on both strands
+# (none)
+#
+# ----- prediction on sequence number 45 (length = 807, name = c11667_g1_i1) -----
+#
+# Predicted genes for sequence number 45 on both strands
+# (none)
+#
+# ----- prediction on sequence number 46 (length = 339, name = c11667_g2_i2) -----
+#
+# Predicted genes for sequence number 46 on both strands
+# (none)
+#
+# ----- prediction on sequence number 47 (length = 960, name = c11717_g1_i1) -----
+#
+# Predicted genes for sequence number 47 on both strands
+# (none)
+#
+# ----- prediction on sequence number 48 (length = 579, name = c11731_g1_i1) -----
+#
+# Predicted genes for sequence number 48 on both strands
+# (none)
+#
+# ----- prediction on sequence number 49 (length = 186, name = c11839_g1_i1) -----
+#
+# Predicted genes for sequence number 49 on both strands
+# (none)
+#
+# ----- prediction on sequence number 50 (length = 606, name = c11965_g1_i1) -----
+#
+# Predicted genes for sequence number 50 on both strands
+# (none)
+#
+# ----- prediction on sequence number 51 (length = 960, name = c11965_g2_i1) -----
+#
+# Predicted genes for sequence number 51 on both strands
+# (none)
+#
+# ----- prediction on sequence number 52 (length = 372, name = c12235_g1_i1) -----
+#
+# Predicted genes for sequence number 52 on both strands
+# start gene g7
+c12235_g1_i1	AUGUSTUS	gene	1	345	1	-	.	g7
+c12235_g1_i1	AUGUSTUS	transcript	1	345	1	-	.	g7.t1
+c12235_g1_i1	AUGUSTUS	CDS	1	345	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+c12235_g1_i1	AUGUSTUS	start_codon	343	345	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [MGRRLTRVCAVTFYCGGLFYRLIKTLLTPVRYKGDLLIKPLPSPIFAGIFDFNASCSPVYEVIFTVQMMGSFVVHSTT
+# ITTCSYAAVLVTHACGQFDLVVHLLKKFIDEEKKDGT]
+# end gene g7
+###
+#
+# ----- prediction on sequence number 53 (length = 414, name = c12235_g2_i1) -----
+#
+# Predicted genes for sequence number 53 on both strands
+# start gene g8
+c12235_g2_i1	AUGUSTUS	gene	1	414	0.54	+	.	g8
+c12235_g2_i1	AUGUSTUS	transcript	1	414	0.54	+	.	g8.t1
+c12235_g2_i1	AUGUSTUS	intron	1	66	0.54	+	.	transcript_id "g8.t1"; gene_id "g8";
+c12235_g2_i1	AUGUSTUS	CDS	67	414	0.54	+	0	transcript_id "g8.t1"; gene_id "g8";
+# protein sequence = [EDVNYAIELNRRIASFIGIWPMFSAKSKSGLALEILAKRIKNALLYLLLGFLLVPGILHIALEERTFKTKILKTGPMI
+# LNTMALVKYTMMLFRKQQIRECFDHLEADWRRAGSAEL]
+# end gene g8
+###
+#
+# ----- prediction on sequence number 54 (length = 311, name = c12607_g1_i1) -----
+#
+# Predicted genes for sequence number 54 on both strands
+# (none)
+#
+# ----- prediction on sequence number 55 (length = 462, name = c12607_g1_i2) -----
+#
+# Predicted genes for sequence number 55 on both strands
+# (none)
+#
+# ----- prediction on sequence number 56 (length = 807, name = c12662_g1_i1) -----
+#
+# Predicted genes for sequence number 56 on both strands
+# (none)
+#
+# ----- prediction on sequence number 57 (length = 1218, name = c12662_g1_i2) -----
+#
+# Predicted genes for sequence number 57 on both strands
+# start gene g9
+c12662_g1_i2	AUGUSTUS	gene	19	1185	0.96	+	.	g9
+c12662_g1_i2	AUGUSTUS	transcript	19	1185	0.96	+	.	g9.t1
+c12662_g1_i2	AUGUSTUS	start_codon	19	21	.	+	0	transcript_id "g9.t1"; gene_id "g9";
+c12662_g1_i2	AUGUSTUS	CDS	19	1185	0.96	+	0	transcript_id "g9.t1"; gene_id "g9";
+c12662_g1_i2	AUGUSTUS	stop_codon	1183	1185	.	+	0	transcript_id "g9.t1"; gene_id "g9";
+# protein sequence = [MRSEEYEGLVWPMRTALRVCAFWPERAVLEGAAAGPRMFLSRGHSALVLLLVACAALGPFVQISLFWGEDINETVECS
+# LVGTALCMSLVRVLLFAGRARDVLYILETMRSDWTDSSEEERLVLRNKCHLAFKLGKLFVVSVAMTAVGFVAIPILELKLAEGKHKKILPFRGYYFIN
+# HERPMVYESLYLLNSISGLFGCCTIAAATSFSLITTIHAAAKFTIIQKEFGKISSRDWISNAVVGKCVQLHQDAIKFAETVERIINVLALAQFIISTG
+# LLCFAGFQMTTMLEDPGRLMKYTQFLISAIMELFIFSYSGQRLKTESEEVAELVYSSNWIGSNMSSNIRFIIMRSRKPCTITAGKFYDMSLESFLKVL
+# SSSFSYFTVLLAMEEN]
+# end gene g9
+###
+#
+# ----- prediction on sequence number 58 (length = 532, name = c12880_g1_i1) -----
+#
+# Predicted genes for sequence number 58 on both strands
+# start gene g10
+c12880_g1_i1	AUGUSTUS	gene	2	532	0.33	+	.	g10
+c12880_g1_i1	AUGUSTUS	transcript	2	532	0.33	+	.	g10.t1
+c12880_g1_i1	AUGUSTUS	intron	356	532	0.44	+	.	transcript_id "g10.t1"; gene_id "g10";
+c12880_g1_i1	AUGUSTUS	CDS	2	355	0.33	+	2	transcript_id "g10.t1"; gene_id "g10";
+# protein sequence = [LQDVLATMKKNWQETMSRREPESETNKEILLDMAQKAQSYTKRYGILMYSTATMYFVSPFLGMQGETVRVRKYPFFGW
+# YYFDRFSNLYYGLCYASQVQPASHAAAAQVAKVRALTCA]
+# end gene g10
+###
+#
+# ----- prediction on sequence number 59 (length = 465, name = c12880_g1_i2) -----
+#
+# Predicted genes for sequence number 59 on both strands
+# start gene g11
+c12880_g1_i2	AUGUSTUS	gene	2	465	0.72	+	.	g11
+c12880_g1_i2	AUGUSTUS	transcript	2	465	0.72	+	.	g11.t1
+c12880_g1_i2	AUGUSTUS	CDS	2	465	0.72	+	2	transcript_id "g11.t1"; gene_id "g11";
+# protein sequence = [QDVLATMKKNWQETMSRREPESETNKEILLDMAQKAQSYTKRYGILMYSTATMYFVSPFLGMQGETVRVRKYPFFGWY
+# YFDRFSNLYYGLCYASQVMSGIVVGTGNYATDSIFLVAIYHCCAQLRMLQHDFGRLKAGDGRGIDRLVRRHQKEIR]
+# end gene g11
+###
+#
+# ----- prediction on sequence number 60 (length = 724, name = c12880_g1_i3) -----
+#
+# Predicted genes for sequence number 60 on both strands
+# start gene g12
+c12880_g1_i3	AUGUSTUS	gene	2	724	0.37	+	.	g12
+c12880_g1_i3	AUGUSTUS	transcript	2	724	0.37	+	.	g12.t1
+c12880_g1_i3	AUGUSTUS	intron	548	724	0.44	+	.	transcript_id "g12.t1"; gene_id "g12";
+c12880_g1_i3	AUGUSTUS	CDS	2	547	0.37	+	2	transcript_id "g12.t1"; gene_id "g12";
+# protein sequence = [SPTILHRTRRGLLFVLLFMLLVPQWLDLYVLWGNIDANAETFVLNVFTITALIKLSLFLSARDLFEDVLATMKKNWQE
+# TMSRREPESETNKEILLDMAQKAQSYTKRYGILMYSTATMYFVSPFLGMQGETVRVRKYPFFGWYYFDRFSNLYYGLCYASQVQPASHAAAAQVAKVR
+# ALTCA]
+# end gene g12
+###
+#
+# ----- prediction on sequence number 61 (length = 201, name = c12880_g1_i4) -----
+#
+# Predicted genes for sequence number 61 on both strands
+# (none)
+#
+# ----- prediction on sequence number 62 (length = 883, name = c12911_g1_i1) -----
+#
+# Predicted genes for sequence number 62 on both strands
+# (none)
+#
+# ----- prediction on sequence number 63 (length = 700, name = c12911_g1_i2) -----
+#
+# Predicted genes for sequence number 63 on both strands
+# (none)
+#
+# ----- prediction on sequence number 64 (length = 549, name = c13092_g1_i1) -----
+#
+# Predicted genes for sequence number 64 on both strands
+# (none)
+#
+# ----- prediction on sequence number 65 (length = 570, name = c13129_g1_i1) -----
+#
+# Predicted genes for sequence number 65 on both strands
+# (none)
+#
+# ----- prediction on sequence number 66 (length = 1167, name = c13348_g1_i1) -----
+#
+# Predicted genes for sequence number 66 on both strands
+# (none)
+#
+# ----- prediction on sequence number 67 (length = 300, name = c13348_g2_i1) -----
+#
+# Predicted genes for sequence number 67 on both strands
+# (none)
+#
+# ----- prediction on sequence number 68 (length = 282, name = c13348_g2_i2) -----
+#
+# Predicted genes for sequence number 68 on both strands
+# (none)
+#
+# ----- prediction on sequence number 69 (length = 1212, name = c13545_g1_i1) -----
+#
+# Predicted genes for sequence number 69 on both strands
+# start gene g13
+c13545_g1_i1	AUGUSTUS	gene	49	931	0.46	+	.	g13
+c13545_g1_i1	AUGUSTUS	transcript	49	931	0.46	+	.	g13.t1
+c13545_g1_i1	AUGUSTUS	start_codon	49	51	.	+	0	transcript_id "g13.t1"; gene_id "g13";
+c13545_g1_i1	AUGUSTUS	intron	820	907	0.52	+	.	transcript_id "g13.t1"; gene_id "g13";
+c13545_g1_i1	AUGUSTUS	CDS	49	819	0.55	+	0	transcript_id "g13.t1"; gene_id "g13";
+c13545_g1_i1	AUGUSTUS	CDS	908	931	0.52	+	0	transcript_id "g13.t1"; gene_id "g13";
+c13545_g1_i1	AUGUSTUS	stop_codon	929	931	.	+	0	transcript_id "g13.t1"; gene_id "g13";
+# protein sequence = [MEEANHAVKITRLSLTAVGLWPDLQENWLYAAFSYVAFCAAMFFMGAMLISQTTKLFMVEGDLDNVVDILCTVNIPVL
+# IAFVKAAALRYDMQVVKALLQKVFEDWASPHTVVQSAKMRENALVGRKMAKICACLAYGCYVMFVSARLFLMWKFRADGRSFLYQIYFPVDVSQMPSF
+# AIVWFLQCISILFSTTTYSGVDGFFAVLALHLCGQLVVLRDELDRLGAKENDQPANAEIEKFVRRHIELTQFSQTIEATFNEGFRIFH]
+# end gene g13
+###
+#
+# ----- prediction on sequence number 70 (length = 213, name = c13719_g1_i1) -----
+#
+# Predicted genes for sequence number 70 on both strands
+# (none)
+#
+# ----- prediction on sequence number 71 (length = 204, name = c13719_g1_i2) -----
+#
+# Predicted genes for sequence number 71 on both strands
+# (none)
+#
+# ----- prediction on sequence number 72 (length = 267, name = c13719_g1_i3) -----
+#
+# Predicted genes for sequence number 72 on both strands
+# (none)
+#
+# ----- prediction on sequence number 73 (length = 987, name = c13959_g1_i1) -----
+#
+# Predicted genes for sequence number 73 on both strands
+# (none)
+#
+# ----- prediction on sequence number 74 (length = 609, name = c13959_g1_i2) -----
+#
+# Predicted genes for sequence number 74 on both strands
+# (none)
+#
+# ----- prediction on sequence number 75 (length = 567, name = c13959_g1_i3) -----
+#
+# Predicted genes for sequence number 75 on both strands
+# (none)
+#
+# ----- prediction on sequence number 76 (length = 504, name = c14245_g1_i1) -----
+#
+# Predicted genes for sequence number 76 on both strands
+# (none)
+#
+# ----- prediction on sequence number 77 (length = 204, name = c14245_g2_i1) -----
+#
+# Predicted genes for sequence number 77 on both strands
+# (none)
+#
+# ----- prediction on sequence number 78 (length = 909, name = c14283_g1_i1) -----
+#
+# Predicted genes for sequence number 78 on both strands
+# (none)
+#
+# ----- prediction on sequence number 79 (length = 1193, name = c14685_g1_i1) -----
+#
+# Predicted genes for sequence number 79 on both strands
+# (none)
+#
+# ----- prediction on sequence number 80 (length = 1137, name = c14685_g1_i2) -----
+#
+# Predicted genes for sequence number 80 on both strands
+# (none)
+#
+# ----- prediction on sequence number 81 (length = 996, name = c14685_g1_i3) -----
+#
+# Predicted genes for sequence number 81 on both strands
+# (none)
+#
+# ----- prediction on sequence number 82 (length = 1203, name = c14724_g2_i1) -----
+#
+# Predicted genes for sequence number 82 on both strands
+# start gene g14
+c14724_g2_i1	AUGUSTUS	gene	151	1197	0.55	+	.	g14
+c14724_g2_i1	AUGUSTUS	transcript	151	1197	0.55	+	.	g14.t1
+c14724_g2_i1	AUGUSTUS	start_codon	151	153	.	+	0	transcript_id "g14.t1"; gene_id "g14";
+c14724_g2_i1	AUGUSTUS	CDS	151	1197	0.55	+	0	transcript_id "g14.t1"; gene_id "g14";
+c14724_g2_i1	AUGUSTUS	stop_codon	1195	1197	.	+	0	transcript_id "g14.t1"; gene_id "g14";
+# protein sequence = [MGWIVISQTTQVFLVNGHLDTIVDIICTADIPVLIGLLKVIFIRYDAKVVKIMLRKFCEDWKHPCSADHAKIMLESDE
+# IGLKFAKICAMLCFTSCNTMILVRLVLSLQEQSRTGARLFLYICYLPVDLTNTPSFEITWILQSVGTLLATASYSGVAGFFAVLVFHLCGQLTILQDE
+# LSCLSPQGDGATSKVSIKEIVKRHIELIEFSQMIEGTFSRFFLLQIGGSVIQFCLQGYQFILIMGTDVNLPYLQIFFMIAFTAYTSGDMFIYCYVAEQ
+# LRKKSEELCNSAYNCKWNKFEKIDAQDLILIMVRSQYPFEITAGKLYPLTLNLLAIMGKTSLGYMSFLVAMKDR]
+# end gene g14
+###
+#
+# ----- prediction on sequence number 83 (length = 270, name = c14724_g2_i2) -----
+#
+# Predicted genes for sequence number 83 on both strands
+# (none)
+#
+# ----- prediction on sequence number 84 (length = 933, name = c14904_g1_i1) -----
+#
+# Predicted genes for sequence number 84 on both strands
+# (none)
+#
+# ----- prediction on sequence number 85 (length = 582, name = c14904_g1_i2) -----
+#
+# Predicted genes for sequence number 85 on both strands
+# (none)
+#
+# ----- prediction on sequence number 86 (length = 957, name = c14904_g1_i3) -----
+#
+# Predicted genes for sequence number 86 on both strands
+# (none)
+#
+# ----- prediction on sequence number 87 (length = 861, name = c14939_g1_i1) -----
+#
+# Predicted genes for sequence number 87 on both strands
+# (none)
+#
+# ----- prediction on sequence number 88 (length = 312, name = c14939_g1_i2) -----
+#
+# Predicted genes for sequence number 88 on both strands
+# (none)
+#
+# ----- prediction on sequence number 89 (length = 312, name = c14939_g1_i3) -----
+#
+# Predicted genes for sequence number 89 on both strands
+# (none)
+#
+# ----- prediction on sequence number 90 (length = 969, name = c15312_g1_i2) -----
+#
+# Predicted genes for sequence number 90 on both strands
+# start gene g15
+c15312_g1_i2	AUGUSTUS	gene	1	312	0.51	-	.	g15
+c15312_g1_i2	AUGUSTUS	transcript	1	312	0.51	-	.	g15.t1
+c15312_g1_i2	AUGUSTUS	intron	1	217	0.65	-	.	transcript_id "g15.t1"; gene_id "g15";
+c15312_g1_i2	AUGUSTUS	CDS	218	312	0.51	-	0	transcript_id "g15.t1"; gene_id "g15";
+c15312_g1_i2	AUGUSTUS	start_codon	310	312	.	-	0	transcript_id "g15.t1"; gene_id "g15";
+# protein sequence = [MVRILINEVFCMVADGLVPGTIKRSDEVEKA]
+# end gene g15
+###
+#
+# ----- prediction on sequence number 91 (length = 837, name = c15312_g1_i4) -----
+#
+# Predicted genes for sequence number 91 on both strands
+# (none)
+#
+# ----- prediction on sequence number 92 (length = 1158, name = c15406_g1_i1) -----
+#
+# Predicted genes for sequence number 92 on both strands
+# (none)
+#
+# ----- prediction on sequence number 93 (length = 765, name = c15406_g1_i2) -----
+#
+# Predicted genes for sequence number 93 on both strands
+# (none)
+#
+# ----- prediction on sequence number 94 (length = 635, name = c15406_g1_i3) -----
+#
+# Predicted genes for sequence number 94 on both strands
+# (none)
+#
+# ----- prediction on sequence number 95 (length = 412, name = c16282_g1_i1) -----
+#
+# Predicted genes for sequence number 95 on both strands
+# (none)
+#
+# ----- prediction on sequence number 96 (length = 1176, name = c16715_g1_i1) -----
+#
+# Predicted genes for sequence number 96 on both strands
+# (none)
+#
+# ----- prediction on sequence number 97 (length = 1071, name = c16715_g1_i2) -----
+#
+# Predicted genes for sequence number 97 on both strands
+# (none)
+#
+# ----- prediction on sequence number 98 (length = 354, name = c17139_g1_i1) -----
+#
+# Predicted genes for sequence number 98 on both strands
+# (none)
+#
+# ----- prediction on sequence number 99 (length = 297, name = c17345_g1_i1) -----
+#
+# Predicted genes for sequence number 99 on both strands
+# (none)
+#
+# ----- prediction on sequence number 100 (length = 1128, name = c17345_g1_i2) -----
+#
+# Predicted genes for sequence number 100 on both strands
+# (none)
+#
+# ----- prediction on sequence number 101 (length = 1323, name = c17625_g1_i1) -----
+#
+# Predicted genes for sequence number 101 on both strands
+# start gene g16
+c17625_g1_i1	AUGUSTUS	gene	67	1323	0.33	-	.	g16
+c17625_g1_i1	AUGUSTUS	transcript	67	1323	0.33	-	.	g16.t1
+c17625_g1_i1	AUGUSTUS	stop_codon	67	69	.	-	0	transcript_id "g16.t1"; gene_id "g16";
+c17625_g1_i1	AUGUSTUS	CDS	67	1323	0.33	-	0	transcript_id "g16.t1"; gene_id "g16";
+# protein sequence = [KTMDLRKEKKRNFSDYFWFIQWSLRFSGVLPLPEYGPFFNWALVSLTLASILFICLPGIYNIIFHSEEIDASGKVNII
+# AGESLEVWVTGLKIAVLLPRRSTMLSMSQRATRLLQGIATAEEVRLVEPYARRGFYLICTFGGIVQFSLVVVVLTPFLMSFEYDGNGTMLASKSLPYT
+# MGVIHKNKALFNICWILQGFTALISCVSIIGIDTAVAVFVLHACAHFRVLHLRFRELAACGGSELQSSRSPDYLCTASSSALLHLRHHPKHKDTMDKD
+# CREMLVKCIETHQEIIRFCDEIEYTFTNVVFIQTILSISAICGFGFNLLSQEEGKLKYALHLFGACLQLSIFCWPPDNLQNESMSIGFEAYNLRWYEW
+# IKKDQTTVEFILTRSQKPMILTSGKFSKMSLETFATSQPSTGILSI]
+# end gene g16
+###
+#
+# ----- prediction on sequence number 102 (length = 1463, name = c17625_g1_i2) -----
+#
+# Predicted genes for sequence number 102 on both strands
+# start gene g17
+c17625_g1_i2	AUGUSTUS	gene	669	1463	0.37	-	.	g17
+c17625_g1_i2	AUGUSTUS	transcript	669	1463	0.37	-	.	g17.t1
+c17625_g1_i2	AUGUSTUS	stop_codon	669	671	.	-	0	transcript_id "g17.t1"; gene_id "g17";
+c17625_g1_i2	AUGUSTUS	CDS	669	1463	0.37	-	0	transcript_id "g17.t1"; gene_id "g17";
+# protein sequence = [KEKKRNFSDYFWFIQWSLRFSGVLPLPEYGPFFNWALVSLTLASILFICLPGIYNIIFHSEEIDASGKVNIIAGESLE
+# VWVTGLKIAVLLPRRSTMLSMSQRATRLLQGIATAEEVRLVEPYARRGFYLICTFGGIVQFSLVVVVLTPFLMSFEYDGNGTMLASKSLPYTMGVIHK
+# NKALFNICWILQGFTALISCVSIIGIDTAVAVFVLHACAHFRVLHLRFRELAACGGSELQSSRSPDYLCTASSSALLHLRHHPKRESF]
+# end gene g17
+###
+#
+# ----- prediction on sequence number 103 (length = 1412, name = c17625_g1_i3) -----
+#
+# Predicted genes for sequence number 103 on both strands
+# start gene g18
+c17625_g1_i3	AUGUSTUS	gene	669	1412	0.27	-	.	g18
+c17625_g1_i3	AUGUSTUS	transcript	669	1412	0.27	-	.	g18.t1
+c17625_g1_i3	AUGUSTUS	stop_codon	669	671	.	-	0	transcript_id "g18.t1"; gene_id "g18";
+c17625_g1_i3	AUGUSTUS	CDS	669	1412	0.27	-	0	transcript_id "g18.t1"; gene_id "g18";
+# protein sequence = [LRFSGVLPLPEYGPFFNWALVSLTLASILFICLPGIYNIIFHSEEIDASGKVNIIAGESLEVWVTGLKIAVLLPRRST
+# MLSMSQRATRLLQGIATAEEVRLVEPYARRGFYLICTFGGIVQFSLVVVVLTPFLMSFEYDGNGTMLASKSLPYTMGVIHKNKALFNICWILQGFTAL
+# ISCVSIIGIDTAVAVFVLHACAHFRVLHLRFRELAACGGSELQSSRSPDYLCTASSSALLHLRHHPKRESF]
+# end gene g18
+###
+#
+# ----- prediction on sequence number 104 (length = 1456, name = c18617_g1_i1) -----
+#
+# Predicted genes for sequence number 104 on both strands
+# start gene g19
+c18617_g1_i1	AUGUSTUS	gene	25	1302	0.8	-	.	g19
+c18617_g1_i1	AUGUSTUS	transcript	25	1302	0.8	-	.	g19.t1
+c18617_g1_i1	AUGUSTUS	stop_codon	25	27	.	-	0	transcript_id "g19.t1"; gene_id "g19";
+c18617_g1_i1	AUGUSTUS	CDS	25	1302	0.8	-	0	transcript_id "g19.t1"; gene_id "g19";
+c18617_g1_i1	AUGUSTUS	start_codon	1300	1302	.	-	0	transcript_id "g19.t1"; gene_id "g19";
+# protein sequence = [MQYGMMAVNLMMESDDVDDLTANTITMLFFLHPIVKIIYFPVRSKIFYKTLAIWNNPNSHPLFAESNARFHALAVTKM
+# RRLLFCVAAATIFSVLAWTGITFADESVKKVTDAATNETTITPIPRLMIRTFYPWNAMHGAKYVISFVYQFYYLFIAMSVSNSLDVLFCSWLLFACEQ
+# LQHLKAIMKPLMELSATLDTVVPNSGELFKAGSADHLRGEQQGVQPGGNGDNVVDVDIRGIYSNRQDFTATFRPTAGTTFNGGVGPNGLTKKQEMLVR
+# SAIKYWVERHKHVVRLVTSVGDAYGVALLLHMLTTTITLTLLAYQATKVNGVNVYAATVIGYLLYTLGQVFLFCIFGNRLIEESSSVMEAAYSCHWYD
+# GSEEAKTFVQIVCQQCQKAMSISGAKFFTVSLDLFASVLGAVVTYFMVLVQLK]
+# end gene g19
+###
+#
+# ----- prediction on sequence number 105 (length = 438, name = c18617_g1_i2) -----
+#
+# Predicted genes for sequence number 105 on both strands
+# start gene g20
+c18617_g1_i2	AUGUSTUS	gene	25	387	0.97	-	.	g20
+c18617_g1_i2	AUGUSTUS	transcript	25	387	0.97	-	.	g20.t1
+c18617_g1_i2	AUGUSTUS	stop_codon	25	27	.	-	0	transcript_id "g20.t1"; gene_id "g20";
+c18617_g1_i2	AUGUSTUS	CDS	25	387	0.97	-	0	transcript_id "g20.t1"; gene_id "g20";
+c18617_g1_i2	AUGUSTUS	start_codon	385	387	.	-	0	transcript_id "g20.t1"; gene_id "g20";
+# protein sequence = [MLTTTITLTLLAYQATKVNGVNVYAATVIGYLLYTLGQVFLFCIFGNRLIEESSSVMEAAYSCHWYDGSEEAKTFVQI
+# VCQQCQKAMSISGAKFFTVSLDLFASVLGAVVTYFMVLVQLK]
+# end gene g20
+###
+#
+# ----- prediction on sequence number 106 (length = 1272, name = c18973_g1_i1) -----
+#
+# Predicted genes for sequence number 106 on both strands
+# (none)
+#
+# ----- prediction on sequence number 107 (length = 1194, name = c18973_g1_i3) -----
+#
+# Predicted genes for sequence number 107 on both strands
+# (none)
+#
+# ----- prediction on sequence number 108 (length = 1194, name = c18973_g1_i4) -----
+#
+# Predicted genes for sequence number 108 on both strands
+# (none)
+#
+# ----- prediction on sequence number 109 (length = 249, name = c19405_g1_i1) -----
+#
+# Predicted genes for sequence number 109 on both strands
+# (none)
+#
+# ----- prediction on sequence number 110 (length = 201, name = c19405_g2_i1) -----
+#
+# Predicted genes for sequence number 110 on both strands
+# (none)
+#
+# ----- prediction on sequence number 111 (length = 1251, name = c19405_g2_i2) -----
+#
+# Predicted genes for sequence number 111 on both strands
+# (none)
+#
+# ----- prediction on sequence number 112 (length = 1080, name = c19405_g2_i3) -----
+#
+# Predicted genes for sequence number 112 on both strands
+# (none)
+#
+# ----- prediction on sequence number 113 (length = 1131, name = c20074_g1_i1) -----
+#
+# Predicted genes for sequence number 113 on both strands
+# (none)
+#
+# ----- prediction on sequence number 114 (length = 135, name = c20074_g1_i2) -----
+#
+# Predicted genes for sequence number 114 on both strands
+# (none)
+#
+# ----- prediction on sequence number 115 (length = 984, name = c20074_g1_i3) -----
+#
+# Predicted genes for sequence number 115 on both strands
+# (none)
+#
+# ----- prediction on sequence number 116 (length = 138, name = c20074_g1_i4) -----
+#
+# Predicted genes for sequence number 116 on both strands
+# (none)
+#
+# ----- prediction on sequence number 117 (length = 1058, name = c20194_g1_i1) -----
+#
+# Predicted genes for sequence number 117 on both strands
+# start gene g21
+c20194_g1_i1	AUGUSTUS	gene	291	932	0.86	+	.	g21
+c20194_g1_i1	AUGUSTUS	transcript	291	932	0.86	+	.	g21.t1
+c20194_g1_i1	AUGUSTUS	start_codon	291	293	.	+	0	transcript_id "g21.t1"; gene_id "g21";
+c20194_g1_i1	AUGUSTUS	CDS	291	932	0.86	+	0	transcript_id "g21.t1"; gene_id "g21";
+c20194_g1_i1	AUGUSTUS	stop_codon	930	932	.	+	0	transcript_id "g21.t1"; gene_id "g21";
+# protein sequence = [MQTSNSLNDVQIELPIKSYQPYDLNRRAIFWITFVLQIIAGFYGVQMNTSLDAMAYGFMILATGQFEMNCQRLSDPKM
+# TVKECIEHHVFVLEIVHKIQKFFIRAIVPLFFSSLITLCTSIFQLSKTSLISYEGLGITSYLFCMLMQIFLLCWYGNELELKSKAVPDAIYSSKWLEC
+# SRKDKKNIWFIMMSAKGSNISFHGQCNLSLNTFVWVI]
+# end gene g21
+###
+#
+# ----- prediction on sequence number 118 (length = 1363, name = c20194_g1_i2) -----
+#
+# Predicted genes for sequence number 118 on both strands
+# start gene g22
+c20194_g1_i2	AUGUSTUS	gene	82	789	0.41	+	.	g22
+c20194_g1_i2	AUGUSTUS	transcript	82	789	0.41	+	.	g22.t1
+c20194_g1_i2	AUGUSTUS	start_codon	82	84	.	+	0	transcript_id "g22.t1"; gene_id "g22";
+c20194_g1_i2	AUGUSTUS	CDS	82	789	0.41	+	0	transcript_id "g22.t1"; gene_id "g22";
+c20194_g1_i2	AUGUSTUS	stop_codon	787	789	.	+	0	transcript_id "g22.t1"; gene_id "g22";
+# protein sequence = [MFYRAVVLFLVFEVTASQLIKLLTIRGSVDEFTEVLFVALTYTCLCIKLTNFLVRRSEVVVLLEKLRMPICRPRTPEE
+# KKILKEYSKIHWRTFLCMIILSQFSAITLLFMPLLTLNDVQIELPIKSYQPYDLNRRAIFWITFVLQIIAGFYGVQMNTSLDAMAYGFMILATGQFEM
+# NCQRLSDPKMTVKECIEHHVFVLEIVHKIQKFFIRAIVPLFFSSLITLCTSIFQLSKVC]
+# end gene g22
+###
+#
+# ----- prediction on sequence number 119 (length = 986, name = c20194_g1_i3) -----
+#
+# Predicted genes for sequence number 119 on both strands
+# (none)
+#
+# ----- prediction on sequence number 120 (length = 689, name = c20194_g1_i4) -----
+#
+# Predicted genes for sequence number 120 on both strands
+# start gene g23
+c20194_g1_i4	AUGUSTUS	gene	291	674	0.99	+	.	g23
+c20194_g1_i4	AUGUSTUS	transcript	291	674	0.99	+	.	g23.t1
+c20194_g1_i4	AUGUSTUS	start_codon	291	293	.	+	0	transcript_id "g23.t1"; gene_id "g23";
+c20194_g1_i4	AUGUSTUS	CDS	291	674	0.99	+	0	transcript_id "g23.t1"; gene_id "g23";
+c20194_g1_i4	AUGUSTUS	stop_codon	672	674	.	+	0	transcript_id "g23.t1"; gene_id "g23";
+# protein sequence = [MQTSNSLNDVQIELPIKSYQPYDLNRRAIFWITFVLQIIAGFYGVQMNTSLDAMAYGFMILATGQFEMNCQRLSDPKM
+# TVKECIEHHVFVLEIVHKIQKFFIRAIVPLFFSSLITLCTSIFQLSKVC]
+# end gene g23
+###
+#
+# ----- prediction on sequence number 121 (length = 1251, name = c20194_g1_i5) -----
+#
+# Predicted genes for sequence number 121 on both strands
+# start gene g24
+c20194_g1_i5	AUGUSTUS	gene	291	674	0.93	+	.	g24
+c20194_g1_i5	AUGUSTUS	transcript	291	674	0.93	+	.	g24.t1
+c20194_g1_i5	AUGUSTUS	start_codon	291	293	.	+	0	transcript_id "g24.t1"; gene_id "g24";
+c20194_g1_i5	AUGUSTUS	CDS	291	674	0.93	+	0	transcript_id "g24.t1"; gene_id "g24";
+c20194_g1_i5	AUGUSTUS	stop_codon	672	674	.	+	0	transcript_id "g24.t1"; gene_id "g24";
+# protein sequence = [MQTSNSLNDVQIELPIKSYQPYDLNRRAIFWITFVLQIIAGFYGVQMNTSLDAMAYGFMILATGQFEMNCQRLSDPKM
+# TVKECIEHHVFVLEIVHKIQKFFIRAIVPLFFSSLITLCTSIFQLSKVC]
+# end gene g24
+###
+#
+# ----- prediction on sequence number 122 (length = 711, name = c20261_g1_i2) -----
+#
+# Predicted genes for sequence number 122 on both strands
+# (none)
+#
+# ----- prediction on sequence number 123 (length = 486, name = c20261_g1_i6) -----
+#
+# Predicted genes for sequence number 123 on both strands
+# (none)
+#
+# ----- prediction on sequence number 124 (length = 198, name = c20261_g1_i8) -----
+#
+# Predicted genes for sequence number 124 on both strands
+# (none)
+#
+# ----- prediction on sequence number 125 (length = 1582, name = c20336_g1_i1) -----
+#
+# Predicted genes for sequence number 125 on both strands
+# start gene g25
+c20336_g1_i1	AUGUSTUS	gene	1	1531	0.53	-	.	g25
+c20336_g1_i1	AUGUSTUS	transcript	1	1531	0.53	-	.	g25.t1
+c20336_g1_i1	AUGUSTUS	intron	64	572	0.53	-	.	transcript_id "g25.t1"; gene_id "g25";
+c20336_g1_i1	AUGUSTUS	intron	1155	1339	1	-	.	transcript_id "g25.t1"; gene_id "g25";
+c20336_g1_i1	AUGUSTUS	CDS	1	63	0.53	-	0	transcript_id "g25.t1"; gene_id "g25";
+c20336_g1_i1	AUGUSTUS	CDS	573	1154	1	-	0	transcript_id "g25.t1"; gene_id "g25";
+c20336_g1_i1	AUGUSTUS	CDS	1340	1531	1	-	0	transcript_id "g25.t1"; gene_id "g25";
+c20336_g1_i1	AUGUSTUS	start_codon	1529	1531	.	-	0	transcript_id "g25.t1"; gene_id "g25";
+# protein sequence = [MLTVSGIWPSFCPTAQKVVAGFAIIVSSIQALGGINFCLYNINNVVIVTKAMGIVISVLSSILKISIFLLHRDDIVSL
+# NKYLLRQFTADLAVASNRPLALAGLSVFTSLFYKLRFAVAMTSILTAVVIPILALRRGQYLLPCPSRFPFEFADGGAVCWLIQMVGLITTFFVWTVTC
+# GVDSVFGMYTLQMCGELRILGKRFESLGTSPDYRGCLADCMRRHRLLIRSTRTLEQLFGSLAIWLFVTSAIIQCTIVFQILERPLRFKAEGFMNLGME
+# MFAKV]
+# end gene g25
+###
+#
+# ----- prediction on sequence number 126 (length = 1648, name = c20336_g1_i2) -----
+#
+# Predicted genes for sequence number 126 on both strands
+# start gene g26
+c20336_g1_i2	AUGUSTUS	gene	1	1597	0.86	-	.	g26
+c20336_g1_i2	AUGUSTUS	transcript	1	1597	0.86	-	.	g26.t1
+c20336_g1_i2	AUGUSTUS	intron	130	638	0.86	-	.	transcript_id "g26.t1"; gene_id "g26";
+c20336_g1_i2	AUGUSTUS	intron	1221	1405	1	-	.	transcript_id "g26.t1"; gene_id "g26";
+c20336_g1_i2	AUGUSTUS	CDS	1	129	0.86	-	0	transcript_id "g26.t1"; gene_id "g26";
+c20336_g1_i2	AUGUSTUS	CDS	639	1220	1	-	0	transcript_id "g26.t1"; gene_id "g26";
+c20336_g1_i2	AUGUSTUS	CDS	1406	1597	1	-	0	transcript_id "g26.t1"; gene_id "g26";
+c20336_g1_i2	AUGUSTUS	start_codon	1595	1597	.	-	0	transcript_id "g26.t1"; gene_id "g26";
+# protein sequence = [MLTVSGIWPSFCPTAQKVVAGFAIIVSSIQALGGINFCLYNINNVVIVTKAMGIVISVLSSILKISIFLLHRDDIVSL
+# NKYLLRQFTADLAVASNRPLALAGLSVFTSLFYKLRFAVAMTSILTAVVIPILALRRGQYLLPCPSRFPFEFADGGAVCWLIQMVGLITTFFVWTVTC
+# GVDSVFGMYTLQMCGELRILGKRFESLGTSPDYRGCLADCMRRHRLLIRSTRTLEQLFGSLAIWLFVTSAIIQCTIVFQILERPLRFKAEGFMNLGME
+# MFAKILNTAISYFFLLQALNDDSQQYK]
+# end gene g26
+###
+#
+# ----- prediction on sequence number 127 (length = 1651, name = c20336_g1_i4) -----
+#
+# Predicted genes for sequence number 127 on both strands
+# start gene g27
+c20336_g1_i4	AUGUSTUS	gene	1	1600	0.69	-	.	g27
+c20336_g1_i4	AUGUSTUS	transcript	1	1600	0.69	-	.	g27.t1
+c20336_g1_i4	AUGUSTUS	intron	157	225	0.71	-	.	transcript_id "g27.t1"; gene_id "g27";
+c20336_g1_i4	AUGUSTUS	intron	337	641	0.96	-	.	transcript_id "g27.t1"; gene_id "g27";
+c20336_g1_i4	AUGUSTUS	intron	1224	1408	1	-	.	transcript_id "g27.t1"; gene_id "g27";
+c20336_g1_i4	AUGUSTUS	CDS	1	156	0.71	-	0	transcript_id "g27.t1"; gene_id "g27";
+c20336_g1_i4	AUGUSTUS	CDS	226	336	0.96	-	0	transcript_id "g27.t1"; gene_id "g27";
+c20336_g1_i4	AUGUSTUS	CDS	642	1223	1	-	0	transcript_id "g27.t1"; gene_id "g27";
+c20336_g1_i4	AUGUSTUS	CDS	1409	1600	1	-	0	transcript_id "g27.t1"; gene_id "g27";
+c20336_g1_i4	AUGUSTUS	start_codon	1598	1600	.	-	0	transcript_id "g27.t1"; gene_id "g27";
+# protein sequence = [MLTVSGIWPSFCPTAQKVVAGFAIIVSSIQALGGINFCLYNINNVVIVTKAMGIVISVLSSILKISIFLLHRDDIVSL
+# NKYLLRQFTADLAVASNRPLALAGLSVFTSLFYKLRFAVAMTSILTAVVIPILALRRGQYLLPCPSRFPFEFADGGAVCWLIQMVGLITTFFVWTVTC
+# GVDSVFGMYTLQMCGELRILGKRFESLGTSPDYRGCLADCMRRHRLLIRSTRTLEQLFGSLAIWLFVTSAIIQCTIVFQILELIKNFSVFKMSFLAFY
+# MGMKLIQAFMYAWYGNLINNESQTCLSSMYKAPWPGTGDKHFMTDVLIILSQRPLRFKAEGFMNLGMEMFAKV]
+# end gene g27
+###
+#
+# ----- prediction on sequence number 128 (length = 1651, name = c20336_g1_i5) -----
+#
+# Predicted genes for sequence number 128 on both strands
+# start gene g28
+c20336_g1_i5	AUGUSTUS	gene	1	1600	0.69	-	.	g28
+c20336_g1_i5	AUGUSTUS	transcript	1	1600	0.69	-	.	g28.t1
+c20336_g1_i5	AUGUSTUS	intron	157	225	0.73	-	.	transcript_id "g28.t1"; gene_id "g28";
+c20336_g1_i5	AUGUSTUS	intron	337	641	0.96	-	.	transcript_id "g28.t1"; gene_id "g28";
+c20336_g1_i5	AUGUSTUS	intron	1224	1408	1	-	.	transcript_id "g28.t1"; gene_id "g28";
+c20336_g1_i5	AUGUSTUS	CDS	1	156	0.73	-	0	transcript_id "g28.t1"; gene_id "g28";
+c20336_g1_i5	AUGUSTUS	CDS	226	336	0.96	-	0	transcript_id "g28.t1"; gene_id "g28";
+c20336_g1_i5	AUGUSTUS	CDS	642	1223	1	-	0	transcript_id "g28.t1"; gene_id "g28";
+c20336_g1_i5	AUGUSTUS	CDS	1409	1600	1	-	0	transcript_id "g28.t1"; gene_id "g28";
+c20336_g1_i5	AUGUSTUS	start_codon	1598	1600	.	-	0	transcript_id "g28.t1"; gene_id "g28";
+# protein sequence = [MLTVSGIWPSFCPTAQKVVAGFAIIVSSIQALGGINFCLYNINNVVIVTKAMGIVISVLSSILKISIFLLHRDDIVSL
+# NKYLLRQFTADLAVASNRPLALAGLSVFTSLFYKLRFAVAMTSILTAVVIPILALRRGQYLLPCPSRFPFEFADGGAVCWLIQMVGLITTFFVWTVTC
+# GVDSVFGMYTLQMCGELRILGKRFESLGTSPDYRGCLADCMRRHRLLIRSTRTLEQLFGSLAIWLFVTSAIIQCTIVFQILELIKNFSVFKMSFLAFY
+# MGMKLIQAFMYAWYGNLINNESQTCLSSMYKAPWPGTGDKHFMTDVLIILSQRPLRFKAEGFMNLGMEMFAKV]
+# end gene g28
+###
+#
+# ----- prediction on sequence number 129 (length = 507, name = c20957_g1_i1) -----
+#
+# Predicted genes for sequence number 129 on both strands
+# (none)
+#
+# ----- prediction on sequence number 130 (length = 507, name = c20957_g1_i3) -----
+#
+# Predicted genes for sequence number 130 on both strands
+# (none)
+#
+# ----- prediction on sequence number 131 (length = 507, name = c20957_g1_i4) -----
+#
+# Predicted genes for sequence number 131 on both strands
+# (none)
+#
+# ----- prediction on sequence number 132 (length = 507, name = c20957_g1_i5) -----
+#
+# Predicted genes for sequence number 132 on both strands
+# (none)
+#
+# ----- prediction on sequence number 133 (length = 990, name = c20957_g1_i6) -----
+#
+# Predicted genes for sequence number 133 on both strands
+# (none)
+#
+# ----- prediction on sequence number 134 (length = 519, name = c21188_g4_i3) -----
+#
+# Predicted genes for sequence number 134 on both strands
+# (none)
+#
+# ----- prediction on sequence number 135 (length = 768, name = c21281_g2_i1) -----
+#
+# Predicted genes for sequence number 135 on both strands
+# start gene g29
+c21281_g2_i1	AUGUSTUS	gene	2	626	0.39	+	.	g29
+c21281_g2_i1	AUGUSTUS	transcript	2	626	0.39	+	.	g29.t1
+c21281_g2_i1	AUGUSTUS	intron	479	582	0.63	+	.	transcript_id "g29.t1"; gene_id "g29";
+c21281_g2_i1	AUGUSTUS	CDS	2	478	0.56	+	2	transcript_id "g29.t1"; gene_id "g29";
+c21281_g2_i1	AUGUSTUS	CDS	583	626	0.63	+	2	transcript_id "g29.t1"; gene_id "g29";
+c21281_g2_i1	AUGUSTUS	stop_codon	624	626	.	+	0	transcript_id "g29.t1"; gene_id "g29";
+# protein sequence = [KSESQNFDDYTRLIRWGLTFLGIWRTESEASGRLPKMVYTTHRGLLFVLLFMLLVPQWLDLYVLWGNIDANAENTAHM
+# IFTMTAIIKLSRFLAVRNLFEDVLETMKKNWEEAMDREEPEQEVHKKILLNMARIGRNYTRGYCFFMYSTAALCAASPFTDSDWDDSRYDEFYD]
+# end gene g29
+###
+#
+# ----- prediction on sequence number 136 (length = 911, name = c21281_g2_i2) -----
+#
+# Predicted genes for sequence number 136 on both strands
+# start gene g30
+c21281_g2_i2	AUGUSTUS	gene	1	615	0.83	+	.	g30
+c21281_g2_i2	AUGUSTUS	transcript	1	615	0.83	+	.	g30.t1
+c21281_g2_i2	AUGUSTUS	start_codon	1	3	.	+	0	transcript_id "g30.t1"; gene_id "g30";
+c21281_g2_i2	AUGUSTUS	CDS	1	615	0.83	+	0	transcript_id "g30.t1"; gene_id "g30";
+c21281_g2_i2	AUGUSTUS	stop_codon	613	615	.	+	0	transcript_id "g30.t1"; gene_id "g30";
+# protein sequence = [MKSESQNFDDYTRLIRWGLTFLGIWRTESEASGRLPKMVYTTHRGLLFVLLFMLLVPQWLDLYVLWGNIDANAENTAH
+# MIFTMTAIIKLSRFLAVRNLFEDVLETMKKNWEEAMDREEPEQEVHKKILLNMARIGRNYTRGYCFFMYSTAALCAASPFTGMQATTIRAYKYPFFGW
+# YYFDRFSSLYYGLCYASQVWAFFAMRKI]
+# end gene g30
+###
+#
+# ----- prediction on sequence number 137 (length = 1227, name = c21281_g2_i3) -----
+#
+# Predicted genes for sequence number 137 on both strands
+# start gene g31
+c21281_g2_i3	AUGUSTUS	gene	40	1082	0.5	+	.	g31
+c21281_g2_i3	AUGUSTUS	transcript	40	1082	0.5	+	.	g31.t1
+c21281_g2_i3	AUGUSTUS	start_codon	40	42	.	+	0	transcript_id "g31.t1"; gene_id "g31";
+c21281_g2_i3	AUGUSTUS	intron	862	989	0.68	+	.	transcript_id "g31.t1"; gene_id "g31";
+c21281_g2_i3	AUGUSTUS	CDS	40	861	0.5	+	0	transcript_id "g31.t1"; gene_id "g31";
+c21281_g2_i3	AUGUSTUS	CDS	990	1082	0.74	+	0	transcript_id "g31.t1"; gene_id "g31";
+c21281_g2_i3	AUGUSTUS	stop_codon	1080	1082	.	+	0	transcript_id "g31.t1"; gene_id "g31";
+# protein sequence = [MKSESQNFDDYTRLIRWGLTFLGIWRTESEASGRLPKMVYTTHRGLLFVLLFMLLVPQWLDLYVLWGNIDANAENTAH
+# MIFTMTAIIKLSRFLAVRNLFEDVLETMKKNWEEAMDREEPEQEVHKKILLNMARIGRNYTRGYCFFMYSTAALCAASPFTGMQATTIRAYKYPFFGW
+# YYFDRFSSLYYGLCYASQIVIGMIVGTTNFTIDSTFLVATYHSCAQLRILQYNFETLKAWDECAASDIQQLIQKHEEEIRHSEKLEVIFNGVSMQQLM
+# AWRRIDYTEYSRWGFGLPVVVDLSGHEFHS]
+# end gene g31
+###
+#
+# ----- prediction on sequence number 138 (length = 680, name = c21385_g1_i1) -----
+#
+# Predicted genes for sequence number 138 on both strands
+# start gene g32
+c21385_g1_i1	AUGUSTUS	gene	1	270	0.6	-	.	g32
+c21385_g1_i1	AUGUSTUS	transcript	1	270	0.6	-	.	g32.t1
+c21385_g1_i1	AUGUSTUS	CDS	1	270	0.6	-	0	transcript_id "g32.t1"; gene_id "g32";
+c21385_g1_i1	AUGUSTUS	start_codon	268	270	.	-	0	transcript_id "g32.t1"; gene_id "g32";
+# protein sequence = [MLTMSLSTVFLNCLIGETLTGLTLEVASTIENRYTDFLGDIPTLRMANLVLLRAQNPLTMTVCSGATMNLRFFCETMA
+# KVYSMVTHVNVI]
+# end gene g32
+###
+#
+# ----- prediction on sequence number 139 (length = 914, name = c21385_g1_i2) -----
+#
+# Predicted genes for sequence number 139 on both strands
+# (none)
+#
+# ----- prediction on sequence number 140 (length = 399, name = c21801_g1_i1) -----
+#
+# Predicted genes for sequence number 140 on both strands
+# (none)
+#
+# ----- prediction on sequence number 141 (length = 399, name = c21801_g1_i2) -----
+#
+# Predicted genes for sequence number 141 on both strands
+# (none)
+#
+# ----- prediction on sequence number 142 (length = 735, name = c21985_g3_i1) -----
+#
+# Predicted genes for sequence number 142 on both strands
+# (none)
+#
+# ----- prediction on sequence number 143 (length = 423, name = c21985_g3_i2) -----
+#
+# Predicted genes for sequence number 143 on both strands
+# (none)
+#
+# ----- prediction on sequence number 144 (length = 423, name = c21985_g3_i3) -----
+#
+# Predicted genes for sequence number 144 on both strands
+# (none)
+#
+# ----- prediction on sequence number 145 (length = 123, name = c21985_g3_i4) -----
+#
+# Predicted genes for sequence number 145 on both strands
+# (none)
+#
+# ----- prediction on sequence number 146 (length = 423, name = c21985_g3_i5) -----
+#
+# Predicted genes for sequence number 146 on both strands
+# (none)
+#
+# ----- prediction on sequence number 147 (length = 1188, name = c22303_g2_i1) -----
+#
+# Predicted genes for sequence number 147 on both strands
+# start gene g33
+c22303_g2_i1	AUGUSTUS	gene	2	1181	0.4	+	.	g33
+c22303_g2_i1	AUGUSTUS	transcript	2	1181	0.4	+	.	g33.t1
+c22303_g2_i1	AUGUSTUS	intron	1050	1102	0.81	+	.	transcript_id "g33.t1"; gene_id "g33";
+c22303_g2_i1	AUGUSTUS	CDS	2	1049	0.4	+	2	transcript_id "g33.t1"; gene_id "g33";
+c22303_g2_i1	AUGUSTUS	CDS	1103	1181	0.81	+	1	transcript_id "g33.t1"; gene_id "g33";
+c22303_g2_i1	AUGUSTUS	stop_codon	1179	1181	.	+	0	transcript_id "g33.t1"; gene_id "g33";
+# protein sequence = [SKTEITKNIKWPNQIPEGFEILAGYYIKLLRWCGMLAFEGYQLNYMLSVVLGLVMNFGHLLVSSMYIGSVVLRPRNAI
+# QHLDIIAEGIGLIGLNARFVIMYVRRNLVATIMRGCQDLWQDLDKDEKLIASGFMKRGKIIITAYAYGVVALQLYYLLNSQINMVEDPMSNGNWTKIL
+# PFRAFYVEINSVSPWYYHAVVIQMVGMVIINIGTVAVDMSPVFFIMLVCGSVRCFRIRLEKLSEGHENKNNISVTKSCILFHQKILRFCDYLTDYTNT
+# LYLIQMMSTSYTMALAGFEILGDAPGTSRFGILIMIYMTQQMLCQWIPQELITESEALPDSIHFNPYTHEMGTRKWTHIYVKTKLQFYDYKCYVILYG
+# SS]
+# end gene g33
+###
+#
+# ----- prediction on sequence number 148 (length = 1171, name = c22303_g2_i2) -----
+#
+# Predicted genes for sequence number 148 on both strands
+# (none)
+#
+# ----- prediction on sequence number 149 (length = 1263, name = c22303_g2_i4) -----
+#
+# Predicted genes for sequence number 149 on both strands
+# (none)
+#
+# ----- prediction on sequence number 150 (length = 1263, name = c22303_g2_i5) -----
+#
+# Predicted genes for sequence number 150 on both strands
+# (none)
+#
+# ----- prediction on sequence number 151 (length = 447, name = c22303_g5_i1) -----
+#
+# Predicted genes for sequence number 151 on both strands
+# (none)
+#
+# ----- prediction on sequence number 152 (length = 1161, name = c22303_g2_i9) -----
+#
+# Predicted genes for sequence number 152 on both strands
+# start gene g34
+c22303_g2_i9	AUGUSTUS	gene	2	1154	0.48	+	.	g34
+c22303_g2_i9	AUGUSTUS	transcript	2	1154	0.48	+	.	g34.t1
+c22303_g2_i9	AUGUSTUS	intron	1023	1075	0.86	+	.	transcript_id "g34.t1"; gene_id "g34";
+c22303_g2_i9	AUGUSTUS	CDS	2	1022	0.49	+	2	transcript_id "g34.t1"; gene_id "g34";
+c22303_g2_i9	AUGUSTUS	CDS	1076	1154	0.86	+	1	transcript_id "g34.t1"; gene_id "g34";
+c22303_g2_i9	AUGUSTUS	stop_codon	1152	1154	.	+	0	transcript_id "g34.t1"; gene_id "g34";
+# protein sequence = [KWPNQIPEGFEILAGYYIKLLRWCGMLAFEGYQLNYMLSVVLGLVMNFGHLLVSSMYIGSVVLRPRNAIQHLDIIAEG
+# IGLIGLNARFVIMYVRRNLVATIMRGCQDLWQDLDKDEKLIASGFMKRGKIIITAYAYGVVALQLYYLLNSQINMVEDPMSNGNWTKILPFRAFYVEI
+# NSVSPWYYHAVVIQMVGMVIINIGTVAVDMSPVFFIMLVCGSVRCFRIRLEKLSEGHENKNNISVTKSCILFHQKILRFCDYLTDYTNTLYLIQMMST
+# SYTMALAGFEILGDAPGTSRFGILIMIYMTQQMLCQWIPQELITESEALPDSIHFNPYTHEMGTRKWTHIYVKTKLQFYDYKCYVILYGSS]
+# end gene g34
+###
+#
+# ----- prediction on sequence number 153 (length = 384, name = c22303_g8_i1) -----
+#
+# Predicted genes for sequence number 153 on both strands
+# (none)
+#
+# ----- prediction on sequence number 154 (length = 345, name = c22303_g10_i1) -----
+#
+# Predicted genes for sequence number 154 on both strands
+# (none)
+#
+# ----- prediction on sequence number 155 (length = 387, name = c22905_g1_i3) -----
+#
+# Predicted genes for sequence number 155 on both strands
+# (none)
+#
+# ----- prediction on sequence number 156 (length = 294, name = c22905_g1_i7) -----
+#
+# Predicted genes for sequence number 156 on both strands
+# (none)
+#
+# ----- prediction on sequence number 157 (length = 399, name = c22905_g1_i8) -----
+#
+# Predicted genes for sequence number 157 on both strands
+# (none)
+#
+# ----- prediction on sequence number 158 (length = 327, name = c22905_g1_i11) -----
+#
+# Predicted genes for sequence number 158 on both strands
+# (none)
+#
+# ----- prediction on sequence number 159 (length = 309, name = c23534_g1_i1) -----
+#
+# Predicted genes for sequence number 159 on both strands
+# (none)
+#
+# ----- prediction on sequence number 160 (length = 519, name = c23600_g1_i1) -----
+#
+# Predicted genes for sequence number 160 on both strands
+# (none)
+#
+# ----- prediction on sequence number 161 (length = 837, name = c23769_g1_i1) -----
+#
+# Predicted genes for sequence number 161 on both strands
+# start gene g35
+c23769_g1_i1	AUGUSTUS	gene	73	675	0.96	-	.	g35
+c23769_g1_i1	AUGUSTUS	transcript	73	675	0.96	-	.	g35.t1
+c23769_g1_i1	AUGUSTUS	stop_codon	73	75	.	-	0	transcript_id "g35.t1"; gene_id "g35";
+c23769_g1_i1	AUGUSTUS	CDS	73	675	0.96	-	0	transcript_id "g35.t1"; gene_id "g35";
+c23769_g1_i1	AUGUSTUS	start_codon	673	675	.	-	0	transcript_id "g35.t1"; gene_id "g35";
+# protein sequence = [MLVLQTTKLFKCKGDLNDIVDILCTVDIPVLITLVRAIVLRYNEQVAKTMIQKLLRDWDSPHTPAQTATMHKTALIGL
+# KMVKICACMAFGSYVFFVSAQLFLLWTGKTDDRPFLYQIYFPVDITGMPSFAIVWFLQCVSILFSTTTYAGVGGFFAMLTLHLCGQLIILKDDLNCID
+# MLKDRQSIKTEIGRIVKTHIELNK]
+# end gene g35
+###
+#
+# ----- prediction on sequence number 162 (length = 300, name = c23956_g1_i1) -----
+#
+# Predicted genes for sequence number 162 on both strands
+# (none)
+#
+# ----- prediction on sequence number 163 (length = 516, name = c24145_g1_i1) -----
+#
+# Predicted genes for sequence number 163 on both strands
+# (none)
+#
+# ----- prediction on sequence number 164 (length = 456, name = c24202_g1_i1) -----
+#
+# Predicted genes for sequence number 164 on both strands
+# (none)
+#
+# ----- prediction on sequence number 165 (length = 336, name = c24867_g1_i1) -----
+#
+# Predicted genes for sequence number 165 on both strands
+# (none)
+#
+# ----- prediction on sequence number 166 (length = 327, name = c25068_g1_i1) -----
+#
+# Predicted genes for sequence number 166 on both strands
+# (none)
+#
+# ----- prediction on sequence number 167 (length = 519, name = c25182_g1_i1) -----
+#
+# Predicted genes for sequence number 167 on both strands
+# (none)
+#
+# ----- prediction on sequence number 168 (length = 321, name = c26511_g1_i1) -----
+#
+# Predicted genes for sequence number 168 on both strands
+# (none)
+#
+# ----- prediction on sequence number 169 (length = 213, name = c27463_g1_i1) -----
+#
+# Predicted genes for sequence number 169 on both strands
+# (none)
+#
+# ----- prediction on sequence number 170 (length = 246, name = c27522_g1_i1) -----
+#
+# Predicted genes for sequence number 170 on both strands
+# (none)
+#
+# ----- prediction on sequence number 171 (length = 428, name = c28926_g1_i1) -----
+#
+# Predicted genes for sequence number 171 on both strands
+# (none)
+#
+# ----- prediction on sequence number 172 (length = 207, name = c28947_g1_i1) -----
+#
+# Predicted genes for sequence number 172 on both strands
+# (none)
+#
+# ----- prediction on sequence number 173 (length = 573, name = c29898_g1_i1) -----
+#
+# Predicted genes for sequence number 173 on both strands
+# (none)
+#
+# ----- prediction on sequence number 174 (length = 468, name = c29954_g1_i1) -----
+#
+# Predicted genes for sequence number 174 on both strands
+# (none)
+#
+# ----- prediction on sequence number 175 (length = 417, name = c29966_g1_i1) -----
+#
+# Predicted genes for sequence number 175 on both strands
+# (none)
+#
+# ----- prediction on sequence number 176 (length = 429, name = c29967_g1_i1) -----
+#
+# Predicted genes for sequence number 176 on both strands
+# (none)
+#
+# ----- prediction on sequence number 177 (length = 567, name = c30190_g1_i1) -----
+#
+# Predicted genes for sequence number 177 on both strands
+# (none)
+#
+# ----- prediction on sequence number 178 (length = 591, name = c30233_g1_i1) -----
+#
+# Predicted genes for sequence number 178 on both strands
+# (none)
+#
+# ----- prediction on sequence number 179 (length = 462, name = c30330_g1_i1) -----
+#
+# Predicted genes for sequence number 179 on both strands
+# (none)
+#
+# ----- prediction on sequence number 180 (length = 665, name = c30959_g1_i1) -----
+#
+# Predicted genes for sequence number 180 on both strands
+# (none)
+#
+# ----- prediction on sequence number 181 (length = 423, name = c31401_g1_i1) -----
+#
+# Predicted genes for sequence number 181 on both strands
+# (none)
+#
+# ----- prediction on sequence number 182 (length = 204, name = c31846_g1_i1) -----
+#
+# Predicted genes for sequence number 182 on both strands
+# (none)
+#
+# ----- prediction on sequence number 183 (length = 522, name = c32099_g1_i1) -----
+#
+# Predicted genes for sequence number 183 on both strands
+# (none)
+#
+# ----- prediction on sequence number 184 (length = 345, name = c32162_g1_i1) -----
+#
+# Predicted genes for sequence number 184 on both strands
+# (none)
+#
+# ----- prediction on sequence number 185 (length = 210, name = c33319_g1_i1) -----
+#
+# Predicted genes for sequence number 185 on both strands
+# (none)
+#
+# ----- prediction on sequence number 186 (length = 312, name = c34160_g1_i1) -----
+#
+# Predicted genes for sequence number 186 on both strands
+# (none)
+#
+# ----- prediction on sequence number 187 (length = 204, name = c34411_g1_i1) -----
+#
+# Predicted genes for sequence number 187 on both strands
+# (none)
+#
+# ----- prediction on sequence number 188 (length = 213, name = c34761_g1_i1) -----
+#
+# Predicted genes for sequence number 188 on both strands
+# (none)
+#
+# ----- prediction on sequence number 189 (length = 204, name = c35360_g1_i1) -----
+#
+# Predicted genes for sequence number 189 on both strands
+# (none)
+#
+# ----- prediction on sequence number 190 (length = 228, name = c35426_g1_i1) -----
+#
+# Predicted genes for sequence number 190 on both strands
+# (none)
+#
+# ----- prediction on sequence number 191 (length = 195, name = c36070_g1_i1) -----
+#
+# Predicted genes for sequence number 191 on both strands
+# (none)
+#
+# ----- prediction on sequence number 192 (length = 540, name = c36329_g1_i1) -----
+#
+# Predicted genes for sequence number 192 on both strands
+# (none)
+#
+# ----- prediction on sequence number 193 (length = 444, name = c36373_g1_i1) -----
+#
+# Predicted genes for sequence number 193 on both strands
+# (none)
+#
+# ----- prediction on sequence number 194 (length = 273, name = c36722_g1_i1) -----
+#
+# Predicted genes for sequence number 194 on both strands
+# (none)
+#
+# ----- prediction on sequence number 195 (length = 321, name = c36891_g1_i1) -----
+#
+# Predicted genes for sequence number 195 on both strands
+# (none)
+#
+# ----- prediction on sequence number 196 (length = 501, name = c36948_g1_i1) -----
+#
+# Predicted genes for sequence number 196 on both strands
+# (none)
+#
+# ----- prediction on sequence number 197 (length = 321, name = c36950_g1_i1) -----
+#
+# Predicted genes for sequence number 197 on both strands
+# (none)
+#
+# ----- prediction on sequence number 198 (length = 432, name = c37112_g1_i1) -----
+#
+# Predicted genes for sequence number 198 on both strands
+# (none)
+#
+# ----- prediction on sequence number 199 (length = 138, name = c37167_g1_i1) -----
+#
+# Predicted genes for sequence number 199 on both strands
+# (none)
+#
+# ----- prediction on sequence number 200 (length = 339, name = c37431_g1_i1) -----
+#
+# Predicted genes for sequence number 200 on both strands
+# (none)
+#
+# ----- prediction on sequence number 201 (length = 603, name = c37439_g1_i1) -----
+#
+# Predicted genes for sequence number 201 on both strands
+# (none)
+#
+# ----- prediction on sequence number 202 (length = 249, name = c38165_g1_i1) -----
+#
+# Predicted genes for sequence number 202 on both strands
+# (none)
+#
+# ----- prediction on sequence number 203 (length = 327, name = c38266_g1_i1) -----
+#
+# Predicted genes for sequence number 203 on both strands
+# (none)
+#
+# ----- prediction on sequence number 204 (length = 267, name = c39596_g1_i1) -----
+#
+# Predicted genes for sequence number 204 on both strands
+# (none)
+#
+# ----- prediction on sequence number 205 (length = 222, name = c39984_g1_i1) -----
+#
+# Predicted genes for sequence number 205 on both strands
+# (none)
+#
+# ----- prediction on sequence number 206 (length = 180, name = c40712_g1_i1) -----
+#
+# Predicted genes for sequence number 206 on both strands
+# (none)
+#
+# ----- prediction on sequence number 207 (length = 189, name = c41024_g1_i1) -----
+#
+# Predicted genes for sequence number 207 on both strands
+# (none)
+#
+# ----- prediction on sequence number 208 (length = 318, name = c41455_g1_i1) -----
+#
+# Predicted genes for sequence number 208 on both strands
+# (none)
+#
+# ----- prediction on sequence number 209 (length = 177, name = c41550_g1_i1) -----
+#
+# Predicted genes for sequence number 209 on both strands
+# (none)
+#
+# ----- prediction on sequence number 210 (length = 210, name = c41586_g1_i1) -----
+#
+# Predicted genes for sequence number 210 on both strands
+# (none)
+#
+# ----- prediction on sequence number 211 (length = 318, name = c41749_g1_i1) -----
+#
+# Predicted genes for sequence number 211 on both strands
+# (none)
+#
+# ----- prediction on sequence number 212 (length = 237, name = c41862_g1_i1) -----
+#
+# Predicted genes for sequence number 212 on both strands
+# (none)
+#
+# ----- prediction on sequence number 213 (length = 201, name = c42306_g1_i1) -----
+#
+# Predicted genes for sequence number 213 on both strands
+# (none)
+#
+# ----- prediction on sequence number 214 (length = 981, name = c42965_g1_i1) -----
+#
+# Predicted genes for sequence number 214 on both strands
+# (none)
+#
+# ----- prediction on sequence number 215 (length = 459, name = c42998_g1_i1) -----
+#
+# Predicted genes for sequence number 215 on both strands
+# (none)
+#
+# ----- prediction on sequence number 216 (length = 369, name = c43061_g1_i1) -----
+#
+# Predicted genes for sequence number 216 on both strands
+# (none)
+#
+# ----- prediction on sequence number 217 (length = 1194, name = c43106_g1_i1) -----
+#
+# Predicted genes for sequence number 217 on both strands
+# (none)
+#
+# ----- prediction on sequence number 218 (length = 396, name = c43660_g1_i1) -----
+#
+# Predicted genes for sequence number 218 on both strands
+# (none)
+#
+# ----- prediction on sequence number 219 (length = 513, name = c43861_g1_i1) -----
+#
+# Predicted genes for sequence number 219 on both strands
+# (none)
+#
+# ----- prediction on sequence number 220 (length = 237, name = c43968_g1_i1) -----
+#
+# Predicted genes for sequence number 220 on both strands
+# (none)
+#
+# ----- prediction on sequence number 221 (length = 873, name = c44461_g1_i1) -----
+#
+# Predicted genes for sequence number 221 on both strands
+# start gene g36
+c44461_g1_i1	AUGUSTUS	gene	22	435	0.58	-	.	g36
+c44461_g1_i1	AUGUSTUS	transcript	22	435	0.58	-	.	g36.t1
+c44461_g1_i1	AUGUSTUS	stop_codon	22	24	.	-	0	transcript_id "g36.t1"; gene_id "g36";
+c44461_g1_i1	AUGUSTUS	intron	233	334	0.79	-	.	transcript_id "g36.t1"; gene_id "g36";
+c44461_g1_i1	AUGUSTUS	CDS	22	232	0.71	-	1	transcript_id "g36.t1"; gene_id "g36";
+c44461_g1_i1	AUGUSTUS	CDS	335	435	0.77	-	0	transcript_id "g36.t1"; gene_id "g36";
+c44461_g1_i1	AUGUSTUS	start_codon	433	435	.	-	0	transcript_id "g36.t1"; gene_id "g36";
+# protein sequence = [MNKRRHTSAYCLMPIKNPVASQILNFTRIISNHSFPVFVTNHSFLGTVEFVPSWLLDYIQHLDKKFARNQNINGFGDG
+# IYESKHKENGFGKKIVGDGHLTDSY]
+# end gene g36
+###
+#
+# ----- prediction on sequence number 222 (length = 387, name = c44483_g1_i1) -----
+#
+# Predicted genes for sequence number 222 on both strands
+# (none)
+#
+# ----- prediction on sequence number 223 (length = 201, name = c44653_g1_i1) -----
+#
+# Predicted genes for sequence number 223 on both strands
+# (none)
+#
+# ----- prediction on sequence number 224 (length = 780, name = c45042_g1_i1) -----
+#
+# Predicted genes for sequence number 224 on both strands
+# (none)
+#
+# ----- prediction on sequence number 225 (length = 333, name = c45045_g1_i1) -----
+#
+# Predicted genes for sequence number 225 on both strands
+# (none)
+#
+# ----- prediction on sequence number 226 (length = 405, name = c46447_g1_i1) -----
+#
+# Predicted genes for sequence number 226 on both strands
+# (none)
+#
+# ----- prediction on sequence number 227 (length = 327, name = c46805_g1_i1) -----
+#
+# Predicted genes for sequence number 227 on both strands
+# (none)
+#
+# ----- prediction on sequence number 228 (length = 252, name = c46914_g1_i1) -----
+#
+# Predicted genes for sequence number 228 on both strands
+# (none)
+#
+# ----- prediction on sequence number 229 (length = 429, name = c47136_g1_i1) -----
+#
+# Predicted genes for sequence number 229 on both strands
+# start gene g37
+c47136_g1_i1	AUGUSTUS	gene	2	429	0.76	+	.	g37
+c47136_g1_i1	AUGUSTUS	transcript	2	429	0.76	+	.	g37.t1
+c47136_g1_i1	AUGUSTUS	CDS	2	429	0.76	+	2	transcript_id "g37.t1"; gene_id "g37";
+# protein sequence = [TELGSEEKVHVRLFVRKVSKLSVCYSGIILTTITLYVLSSQLPQWTAAATNETVHRVLPYPFYVDVQSSPWYEVLLGV
+# QIVCLLTVTQTSVCVDTALAFLIMIACGHFRLVQVRLGIIARNIEENEARKRNNKIVASTALHQ]
+# end gene g37
+###
+#
+# ----- prediction on sequence number 230 (length = 219, name = c48056_g1_i1) -----
+#
+# Predicted genes for sequence number 230 on both strands
+# (none)
+#
+# ----- prediction on sequence number 231 (length = 1149, name = c49047_g1_i1) -----
+#
+# Predicted genes for sequence number 231 on both strands
+# start gene g38
+c49047_g1_i1	AUGUSTUS	gene	2	1001	0.48	+	.	g38
+c49047_g1_i1	AUGUSTUS	transcript	2	1001	0.48	+	.	g38.t1
+c49047_g1_i1	AUGUSTUS	intron	916	995	0.7	+	.	transcript_id "g38.t1"; gene_id "g38";
+c49047_g1_i1	AUGUSTUS	CDS	2	915	0.6	+	2	transcript_id "g38.t1"; gene_id "g38";
+c49047_g1_i1	AUGUSTUS	CDS	996	1001	0.7	+	0	transcript_id "g38.t1"; gene_id "g38";
+c49047_g1_i1	AUGUSTUS	stop_codon	999	1001	.	+	0	transcript_id "g38.t1"; gene_id "g38";
+# protein sequence = [MRKYQAYARNIKGFLFVTGIWPDTQIVLKSILAFAALFSQSLIAVTALNFCIHNASNIMVITKGMGIVLSMCSSSLKI
+# CIFLMHHKDLVYLNEVLSVKFEKDLENTENRPWLLNRIGPFNVILHALMASGCGTIMMFTLTPIFTLWLSGRYLRTFPSVYPFSYEPGGVVHWIIYLL
+# EVMAGIFLYTITCGVDNSFGMYSFQVCGELGLLAKRFESLKVSKDYKRDLRDCVERHQIVICSTHRLESIFGLLSIWIAVSSATVLCTSIFQLTEALK
+# SRTTSLLMGIMIFYMTTKFLQVFTYAWYGEE]
+# end gene g38
+###
+#
+# ----- prediction on sequence number 232 (length = 717, name = c49721_g1_i1) -----
+#
+# Predicted genes for sequence number 232 on both strands
+# (none)
+#
+# ----- prediction on sequence number 233 (length = 1104, name = c50478_g1_i1) -----
+#
+# Predicted genes for sequence number 233 on both strands
+# (none)
+#
+# ----- prediction on sequence number 234 (length = 372, name = c50927_g1_i1) -----
+#
+# Predicted genes for sequence number 234 on both strands
+# (none)
+#
+# ----- prediction on sequence number 235 (length = 492, name = c51018_g1_i1) -----
+#
+# Predicted genes for sequence number 235 on both strands
+# (none)
+#
+# ----- prediction on sequence number 236 (length = 336, name = c51369_g1_i1) -----
+#
+# Predicted genes for sequence number 236 on both strands
+# (none)
+#
+# ----- prediction on sequence number 237 (length = 339, name = c52005_g1_i1) -----
+#
+# Predicted genes for sequence number 237 on both strands
+# (none)
+#
+# ----- prediction on sequence number 238 (length = 213, name = c52251_g1_i1) -----
+#
+# Predicted genes for sequence number 238 on both strands
+# (none)
+#
+# ----- prediction on sequence number 239 (length = 246, name = c52530_g1_i1) -----
+#
+# Predicted genes for sequence number 239 on both strands
+# (none)
+#
+# ----- prediction on sequence number 240 (length = 321, name = c52537_g1_i1) -----
+#
+# Predicted genes for sequence number 240 on both strands
+# (none)
+#
+# ----- prediction on sequence number 241 (length = 303, name = c53276_g1_i1) -----
+#
+# Predicted genes for sequence number 241 on both strands
+# (none)
+#
+# ----- prediction on sequence number 242 (length = 291, name = c53719_g1_i1) -----
+#
+# Predicted genes for sequence number 242 on both strands
+# (none)
+#
+# ----- prediction on sequence number 243 (length = 429, name = c53829_g1_i1) -----
+#
+# Predicted genes for sequence number 243 on both strands
+# (none)
+#
+# ----- prediction on sequence number 244 (length = 240, name = c54022_g1_i1) -----
+#
+# Predicted genes for sequence number 244 on both strands
+# (none)
+#
+# ----- prediction on sequence number 245 (length = 633, name = c55329_g1_i1) -----
+#
+# Predicted genes for sequence number 245 on both strands
+# (none)
+#
+# ----- prediction on sequence number 246 (length = 1080, name = c55704_g1_i1) -----
+#
+# Predicted genes for sequence number 246 on both strands
+# start gene g39
+c55704_g1_i1	AUGUSTUS	gene	1	1044	0.45	-	.	g39
+c55704_g1_i1	AUGUSTUS	transcript	1	1044	0.45	-	.	g39.t1
+c55704_g1_i1	AUGUSTUS	intron	1	13	0.51	-	.	transcript_id "g39.t1"; gene_id "g39";
+c55704_g1_i1	AUGUSTUS	CDS	14	1044	0.45	-	0	transcript_id "g39.t1"; gene_id "g39";
+c55704_g1_i1	AUGUSTUS	start_codon	1042	1044	.	-	0	transcript_id "g39.t1"; gene_id "g39";
+# protein sequence = [MKNAKFSGYDVTVGPCRFFLRMGGVWPDPYVDSNAFAYVRAFFVSSVLLFFSAATQLPKMLQVWGNIDDVADVLINFL
+# VPGGTTALKVFTVWYHNQSLRQLTLQLANDWVDMDRNPRELKIMKPLAGYGRKISATCTSLALGTFVTQNFLAGLAIANHGKRVDPDNDTSIWPLYMP
+# ATFPYDSQMSPFYEFSLFGQSLANFFAAAMYTSTDSLFLVLVLHLCGQLMVLKLTIIDLKYTDTAEFIKKVAYIQEKHNRFSRFAETIEDVFSKTFLV
+# QIISNSCVLCMLGYLTITASARGGMPFMKLIFTMYYVSCFLFITFTYCFVAEQLRTKSTDIADAIYECD]
+# end gene g39
+###
+#
+# ----- prediction on sequence number 247 (length = 273, name = c56413_g1_i1) -----
+#
+# Predicted genes for sequence number 247 on both strands
+# (none)
+#
+# ----- prediction on sequence number 248 (length = 567, name = c56436_g1_i1) -----
+#
+# Predicted genes for sequence number 248 on both strands
+# (none)
+#
+# ----- prediction on sequence number 249 (length = 294, name = c57242_g1_i1) -----
+#
+# Predicted genes for sequence number 249 on both strands
+# (none)
+#
+# ----- prediction on sequence number 250 (length = 249, name = c57506_g1_i1) -----
+#
+# Predicted genes for sequence number 250 on both strands
+# (none)
+#
+# ----- prediction on sequence number 251 (length = 231, name = c58330_g1_i1) -----
+#
+# Predicted genes for sequence number 251 on both strands
+# (none)
+#
+# ----- prediction on sequence number 252 (length = 339, name = c58612_g1_i1) -----
+#
+# Predicted genes for sequence number 252 on both strands
+# (none)
+#
+# ----- prediction on sequence number 253 (length = 309, name = c58817_g1_i1) -----
+#
+# Predicted genes for sequence number 253 on both strands
+# (none)
+#
+# ----- prediction on sequence number 254 (length = 228, name = c59121_g1_i1) -----
+#
+# Predicted genes for sequence number 254 on both strands
+# (none)
+# command line:
+# augustus --species=nasonia idarnes_lo1_transcript_hits.fa --outfile=idarnes_lo1_transcript_augustus.txt

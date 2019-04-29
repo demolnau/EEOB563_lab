@@ -1,0 +1,69 @@
+
+RAxML-NG v. 0.8.1 BETA released on 05.03.2019 by The Exelixis Lab.
+Authors: Alexey Kozlov, Alexandros Stamatakis, Diego Darriba, Tomas Flouri, Benoit Morel.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+WARNING: This is a BETA release, please use at your own risk!
+
+RAxML-NG was called at 25-Apr-2019 09:11:48 as follows:
+
+raxml-ng --all --model LG4X --msa ../mafft/OR_predicted_prot.aln --seed 13 --bs-trees 100 --prefix transcriptome_OR_raxml --bs-metric fbp --threads 4
+
+Analysis options:
+  run mode: ML tree search + bootstrapping (Felsenstein Bootstrap)
+  start tree(s): random (10) + parsimony (10)
+  bootstrap replicates: 100
+  random seed: 13
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: PTHREADS (4 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: ../mafft/OR_predicted_prot.aln
+[00:00:00] Loaded alignment with 2121 taxa and 1772 sites
+
+WARNING: Fully undetermined columns found: 3
+
+WARNING: Sequences het2_predicted_OR_protein_8 and het2_predicted_OR_protein_9 are exactly identical!
+WARNING: Sequences idarnes_lo1_predicted_OR_protein_2 and idarnes_lo1_predicted_OR_protein_3 are exactly identical!
+WARNING: Sequences idarnes_lo1_predicted_OR_protein_23 and idarnes_lo1_predicted_OR_protein_24 are exactly identical!
+WARNING: Sequences idarnes_lo1_predicted_OR_protein_27 and idarnes_lo1_predicted_OR_protein_28 are exactly identical!
+WARNING: Sequences idarnes_so1_predicted_OR_protein_18 and idarnes_so1_predicted_OR_protein_19 are exactly identical!
+WARNING: Sequences idarnes_so1_predicted_OR_protein_18 and idarnes_so1_predicted_OR_protein_21 are exactly identical!
+WARNING: Sequences idarnes_so1_predicted_OR_protein_25 and idarnes_so1_predicted_OR_protein_28 are exactly identical!
+WARNING: Sequences idarnes_so2_predicted_OR_protein_4 and phy_predicted_OR_protein_10 are exactly identical!
+WARNING: Duplicate sequences found: 8
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /home/demolnau/transcript_OR_blast_repeat/raxml/transcriptome_OR_raxml.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 1444 patterns
+
+Partition 0: noname
+Model: LG4X+R4
+Alignment sites / patterns: 1769 / 1444
+Gaps: 78.85 %
+Invariant sites: 37.14 %
+
+
+NOTE: Binary MSA file created: transcriptome_OR_raxml.raxml.rba
+
+
+NOTE: Per-rate scalers were automatically enabled to prevent numerical issues on taxa-rich alignments.
+NOTE: You can use --force switch to skip this check and fall back to per-site scalers.
+
+[00:00:00] Generating 10 random starting tree(s) with 2121 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 2121 taxa
+[00:05:43] Data distribution: max. partitions/sites/weight per thread: 1 / 361 / 28880
+
+Starting ML tree search with 20 distinct starting trees
+
+[17:13:23] ML tree search #1, logLikelihood: -933942.509606
+[39:38:43] ML tree search #2, logLikelihood: -933944.230916
+[56:14:05] ML tree search #3, logLikelihood: -933906.353858
+[73:51:44] ML tree search #4, logLikelihood: -933960.316181
+[84:41:20] ML tree search #5, logLikelihood: -933980.122277
