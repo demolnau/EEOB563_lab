@@ -12,3 +12,4 @@
  
  The transcriptomic folder contains the blast, mafft, and raxml of the fig wasps transcriptomes. 
  
+ This is the second time recreating this folder. The first time was completely erased when trying push to github. I was able to fix some of the files but my scripts and data manipulation were completely erased.
