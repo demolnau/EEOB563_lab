@@ -1,0 +1,58 @@
+
+RAxML-NG v. 0.8.1 BETA released on 05.03.2019 by The Exelixis Lab.
+Authors: Alexey Kozlov, Alexandros Stamatakis, Diego Darriba, Tomas Flouri, Benoit Morel.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+WARNING: This is a BETA release, please use at your own risk!
+
+RAxML-NG was called at 22-Apr-2019 18:15:57 as follows:
+
+raxml-ng --all --msa ../mafft/pego_OR_alignment.aln --prefix pego_raxml --model LG4X --threads 6 --seed 2 bs-metric fbp --bs-trees 100
+
+Analysis options:
+  run mode: ML tree search + bootstrapping (Felsenstein Bootstrap)
+  start tree(s): random (10) + parsimony (10)
+  bootstrap replicates: 100
+  random seed: 2
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: PTHREADS (6 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: ../mafft/pego_OR_alignment.aln
+[00:00:00] Loaded alignment with 1987 taxa and 1550 sites
+
+WARNING: Fully undetermined columns found: 4
+
+WARNING: Sequences pego_predicted_gene_2 and pego_predicted_gene_3 are exactly identical!
+WARNING: Duplicate sequences found: 1
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /home/demolnau/assembling_genomes/OR_tree/raxml/pego_raxml.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 1457 patterns
+
+Partition 0: noname
+Model: LG4X+R4
+Alignment sites / patterns: 1546 / 1457
+Gaps: 75.21 %
+Invariant sites: 28.33 %
+
+
+NOTE: Binary MSA file created: pego_raxml.raxml.rba
+
+[00:00:00] Generating 10 random starting tree(s) with 1987 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 1987 taxa
+[00:02:21] Data distribution: max. partitions/sites/weight per thread: 1 / 243 / 19440
+
+Starting ML tree search with 20 distinct starting trees
+
+[23:58:34] ML tree search #1, logLikelihood: -907029.222125
+[48:35:54] ML tree search #2, logLikelihood: -907132.198120
+[72:03:58] ML tree search #3, logLikelihood: -907050.666910
+[99:36:39] ML tree search #4, logLikelihood: -907034.406416
+[128:05:11] ML tree search #5, logLikelihood: -907189.453517
