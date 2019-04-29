@@ -1,0 +1,8 @@
+#load in augusuts
+module load augusutus
+#get the predicited proteins using Nasonia vitripennis as the model organism
+augustus --species=nasonia pego_edited_hits.fa --outfile=pego_augustus.txt
+#extract only the predicted proteins soo this output is a bit more readable
+sed -n -e '/start/,/end/ p' pego_augusutus.txt > pego_augusutus_edited.txt
+#create a fasta file of these predicted proteins
+

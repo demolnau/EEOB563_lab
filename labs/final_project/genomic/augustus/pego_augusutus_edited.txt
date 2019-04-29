@@ -1,0 +1,88 @@
+# start gene g1
+seq14361_len184_cov9	AUGUSTUS	gene	2	171	0.64	+	.	g1
+seq14361_len184_cov9	AUGUSTUS	transcript	2	171	0.64	+	.	g1.t1
+seq14361_len184_cov9	AUGUSTUS	CDS	2	171	0.64	+	2	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [GLSRTLHRVHLTILPVMCVLLLIPQWLDLYMLWGNFGANTETFVLNLFTITAILKL]
+# end gene g1
+# start gene g2
+seq34273_len4504_cov22	AUGUSTUS	gene	1	1889	0.33	-	.	g2
+seq34273_len4504_cov22	AUGUSTUS	transcript	1	1889	0.33	-	.	g2.t1
+seq34273_len4504_cov22	AUGUSTUS	intron	315	1495	0.76	-	.	transcript_id "g2.t1"; gene_id "g2";
+seq34273_len4504_cov22	AUGUSTUS	CDS	1	314	0.77	-	2	transcript_id "g2.t1"; gene_id "g2";
+seq34273_len4504_cov22	AUGUSTUS	CDS	1496	1889	0.38	-	0	transcript_id "g2.t1"; gene_id "g2";
+seq34273_len4504_cov22	AUGUSTUS	start_codon	1887	1889	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MTTIGVWPLSPNKFRFYINFAYLSYYMILEYLDLLLFIDNLGFVLLNLTENMAFTQIIFRMYTLHANAKDLCELLKEV
+# KKDFDPRIYTDEEKKTYISYYVKSKIFMRILIINTALTATSYYAKPFLGQISEIIEYAGSKGQNSSSLDFILPYRFYTFYELKDASTYFWTYGSQLPF
+# VFVSGFGQCASDCFMLTMIYHISAQMKILASRITSIGTDSPSSCMDELKTILELHMKLLR]
+# end gene g2
+# start gene g3
+seq35586_len6823_cov19	AUGUSTUS	gene	2	1592	0.21	+	.	g3
+seq35586_len6823_cov19	AUGUSTUS	transcript	2	1592	0.21	+	.	g3.t1
+seq35586_len6823_cov19	AUGUSTUS	intron	133	236	0.98	+	.	transcript_id "g3.t1"; gene_id "g3";
+seq35586_len6823_cov19	AUGUSTUS	intron	621	1179	0.7	+	.	transcript_id "g3.t1"; gene_id "g3";
+seq35586_len6823_cov19	AUGUSTUS	intron	1435	1544	0.46	+	.	transcript_id "g3.t1"; gene_id "g3";
+seq35586_len6823_cov19	AUGUSTUS	CDS	2	132	0.65	+	2	transcript_id "g3.t1"; gene_id "g3";
+seq35586_len6823_cov19	AUGUSTUS	CDS	237	620	0.84	+	0	transcript_id "g3.t1"; gene_id "g3";
+seq35586_len6823_cov19	AUGUSTUS	CDS	1180	1434	0.65	+	0	transcript_id "g3.t1"; gene_id "g3";
+seq35586_len6823_cov19	AUGUSTUS	CDS	1545	1592	0.46	+	0	transcript_id "g3.t1"; gene_id "g3";
+seq35586_len6823_cov19	AUGUSTUS	stop_codon	1590	1592	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MKTKYQGLVADLLPNIRVMQGVGHFMFNYYSEGKKFPHKIYSSVTLVLILIQYGLMAVNLILDRDDVDELTANTITML
+# FFLHPIVKVLYFLVRSKIFYKTLGIWNNPNSHPLFAESNARYHSLAITKMRRLLFCVAAASIFSVLAWTGITFMDESVKRVIDPETNETTITPIPRLM
+# IRTFYPWNAMSGASHLFSLIYQFYYLFFSLSISNSIDVLFCSWLLFACEQLQHLKAIMKPLMELSATLDTVVPNSGELFKALKLKEYSKDKIIKK]
+# end gene g3
+# start gene g4
+seq79862_len1009_cov15	AUGUSTUS	gene	31	576	0.66	+	.	g4
+seq79862_len1009_cov15	AUGUSTUS	transcript	31	576	0.66	+	.	g4.t1
+seq79862_len1009_cov15	AUGUSTUS	start_codon	31	33	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+seq79862_len1009_cov15	AUGUSTUS	CDS	31	576	0.66	+	0	transcript_id "g4.t1"; gene_id "g4";
+seq79862_len1009_cov15	AUGUSTUS	stop_codon	574	576	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MRRDKRMMHIFGTSLEIAQNEVKVLTTHTNEYDTDQQLRQHNAVETRFQIPAESDELLMLPYQHRNPHLPIFAFVGVQ
+# LLPFDLQYFKLGAQMMNEAEEKTVGAGSARAHVHALRVLHQYKHHVVLGQKFLGQVRRVRYQLVLEILAVPVEHIFEDRPRQEKCGADVAAGIVSDVL
+# VLVNL]
+# end gene g4
+# start gene g5
+seq504639_len969_cov21	AUGUSTUS	gene	82	546	0.33	+	.	g5
+seq504639_len969_cov21	AUGUSTUS	transcript	82	546	0.33	+	.	g5.t1
+seq504639_len969_cov21	AUGUSTUS	start_codon	82	84	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+seq504639_len969_cov21	AUGUSTUS	CDS	82	546	0.33	+	0	transcript_id "g5.t1"; gene_id "g5";
+seq504639_len969_cov21	AUGUSTUS	stop_codon	544	546	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MRYKPDWERNIMKVEAKRGRLVTMSGHLIITISFIGFMTCPMLHIPFRPMSNATDRGDRFLTSMSYYPYDYLKSPNYE
+# LTLLVQAVAGVFLAISLVGLDNYFAVLIFHINAQYKILAMKVESLMQRESYEKASEITSFKRSLAVFVDRHVHLMK]
+# end gene g5
+# start gene g6
+seq507677_len4507_cov19	AUGUSTUS	gene	7	492	0.72	-	.	g6
+seq507677_len4507_cov19	AUGUSTUS	transcript	7	492	0.72	-	.	g6.t1
+seq507677_len4507_cov19	AUGUSTUS	stop_codon	7	9	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+seq507677_len4507_cov19	AUGUSTUS	CDS	7	492	0.72	-	0	transcript_id "g6.t1"; gene_id "g6";
+seq507677_len4507_cov19	AUGUSTUS	start_codon	490	492	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MDAWNSKKTDVEMKNMRRNAKITRRIALVCMTLGILSVEGIIVEKISQELNIQPALDKRRPVLSSYFLYDHKPSPVYE
+# ITWLLQYTATVLSTVAYTGVTGLFIVLVLHLRCQVNNLRLRLENLDFYDTSNKLKKKIEFIVTKHEIINRYSHLLKLTQIKMD]
+# end gene g6
+# start gene g7
+seq787996_len2980_cov19	AUGUSTUS	gene	4	390	0.4	+	.	g7
+seq787996_len2980_cov19	AUGUSTUS	transcript	4	390	0.4	+	.	g7.t1
+seq787996_len2980_cov19	AUGUSTUS	start_codon	4	6	.	+	0	transcript_id "g7.t1"; gene_id "g7";
+seq787996_len2980_cov19	AUGUSTUS	CDS	4	390	0.4	+	0	transcript_id "g7.t1"; gene_id "g7";
+seq787996_len2980_cov19	AUGUSTUS	stop_codon	388	390	.	+	0	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [MLDVNEEFAPIPFYILKFCGLWRPLTYSTWKKMLYNSYTVLILIILNGIMMSVMIAVCNMPITDEFFAENVFLMFALI
+# NAVCKAVNILISRKRFLRMMIMLYHERWQKLESTEENEIQERYRKTIRFV]
+# end gene g7
+# start gene g8
+seq1014119_len2484_cov18	AUGUSTUS	gene	2	288	0.73	+	.	g8
+seq1014119_len2484_cov18	AUGUSTUS	transcript	2	288	0.73	+	.	g8.t1
+seq1014119_len2484_cov18	AUGUSTUS	intron	239	288	0.97	+	.	transcript_id "g8.t1"; gene_id "g8";
+seq1014119_len2484_cov18	AUGUSTUS	CDS	2	238	0.73	+	2	transcript_id "g8.t1"; gene_id "g8";
+# protein sequence = [HLMHKGLELSNKEMSDIVSEWNKGELDSFLIEITSNILKFKDEKGYLLDRIRDTAGQKGTGKWTAVAGLDYGIPVTLI]
+# end gene g8
+# start gene g9
+seq1393699_len1240_cov24	AUGUSTUS	gene	1	370	0.78	-	.	g9
+seq1393699_len1240_cov24	AUGUSTUS	transcript	1	370	0.78	-	.	g9.t1
+seq1393699_len1240_cov24	AUGUSTUS	intron	1	24	0.78	-	.	transcript_id "g9.t1"; gene_id "g9";
+seq1393699_len1240_cov24	AUGUSTUS	intron	121	189	0.79	-	.	transcript_id "g9.t1"; gene_id "g9";
+seq1393699_len1240_cov24	AUGUSTUS	intron	290	365	0.79	-	.	transcript_id "g9.t1"; gene_id "g9";
+seq1393699_len1240_cov24	AUGUSTUS	CDS	25	120	0.78	-	0	transcript_id "g9.t1"; gene_id "g9";
+seq1393699_len1240_cov24	AUGUSTUS	CDS	190	289	0.79	-	1	transcript_id "g9.t1"; gene_id "g9";
+seq1393699_len1240_cov24	AUGUSTUS	CDS	366	370	0.79	-	0	transcript_id "g9.t1"; gene_id "g9";
+seq1393699_len1240_cov24	AUGUSTUS	start_codon	368	370	.	-	0	transcript_id "g9.t1"; gene_id "g9";
+# protein sequence = [MLFCEETERFLRNYYLVAVFSSIYNLSVVGMAMLQKNGDKVKYGSMFAMNLFQFFTCQWASEYLLNE]
+# end gene g9
